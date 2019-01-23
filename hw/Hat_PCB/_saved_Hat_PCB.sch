@@ -366,7 +366,7 @@ U 1 1 5C3C7758
 P 5150 1850
 F 0 "J5" H 5230 1842 50  0000 L CNN
 F 1 "RPi_Power" H 5230 1751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5150 1850 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 5150 1850 50  0001 C CNN
 F 3 "~" H 5150 1850 50  0001 C CNN
 	1    5150 1850
 	-1   0    0    1   
@@ -939,8 +939,6 @@ Text Label 6700 8300 2    50   ~ 0
 MCU_TXD
 Text Label 6700 9700 2    50   ~ 0
 MCU_INT
-Wire Wire Line
-	6200 8500 6700 8500
 Text Label 6700 8500 2    50   ~ 0
 LED_DATA
 Wire Wire Line
@@ -1779,17 +1777,6 @@ PROG_SCK
 Text Label 4750 8700 2    50   ~ 0
 PROG_RST_N
 $Comp
-L Timer_RTC:DS3231M U6
-U 1 1 5C5E5A43
-P 13050 9100
-F 0 "U6" H 13050 8614 50  0000 C CNN
-F 1 "DS3231M" H 13050 8523 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 13050 8500 50  0001 C CNN
-F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 13320 9150 50  0001 C CNN
-	1    13050 9100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0138
 U 1 1 5C6141F2
 P 13300 9650
@@ -1812,8 +1799,6 @@ F 3 "" H 12950 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12950 8700 12950 8650
-Wire Wire Line
 	12550 8900 12200 8900
 Wire Wire Line
 	12550 9000 12200 9000
@@ -1821,10 +1806,6 @@ Text Label 12200 8900 0    50   ~ 0
 SCL
 Text Label 12200 9000 0    50   ~ 0
 SDA
-Wire Wire Line
-	12200 9300 12550 9300
-Text Label 12200 9300 0    50   ~ 0
-RTC_RST
 Text Label 14000 8900 2    50   ~ 0
 RTC_32KHZ
 Wire Wire Line
@@ -1834,15 +1815,7 @@ Wire Wire Line
 Text Label 14000 9200 2    50   ~ 0
 RTC_INT
 Wire Wire Line
-	13050 9500 13300 9500
-Wire Wire Line
-	13300 9500 13300 9650
-Wire Wire Line
-	13050 8700 13050 8650
-Wire Wire Line
 	14300 8650 14300 9050
-Wire Wire Line
-	13050 8650 14300 8650
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5C76C3AB
@@ -1856,9 +1829,6 @@ F 3 "~" V 14300 9310 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14300 9350 14300 9500
-Wire Wire Line
-	14300 9500 13300 9500
-Connection ~ 13300 9500
 $Comp
 L BAV99:BAV99 D1
 U 1 1 5C785273
@@ -2325,4 +2295,60 @@ Wire Wire Line
 Connection ~ 13150 3450
 Wire Wire Line
 	13150 3450 12800 3450
+Wire Wire Line
+	13300 9500 13300 9650
+Wire Wire Line
+	12950 8700 12950 8650
+Text Label 12200 9300 0    50   ~ 0
+RTC_RST
+Wire Wire Line
+	12200 9300 12550 9300
+Wire Wire Line
+	13050 9500 13300 9500
+Connection ~ 13300 9500
+Wire Wire Line
+	14300 9500 13300 9500
+Wire Wire Line
+	13050 8650 14300 8650
+Wire Wire Line
+	13050 8700 13050 8650
+$Comp
+L Timer_RTC:DS3231M U6
+U 1 1 5C5E5A43
+P 13050 9100
+F 0 "U6" H 13050 8614 50  0000 C CNN
+F 1 "DS3231M" H 13050 8523 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 13050 8500 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 13320 9150 50  0001 C CNN
+	1    13050 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5DA18A45
+P 7400 8500
+F 0 "J13" H 7480 8492 50  0000 L CNN
+F 1 "LED_Out" H 7480 8401 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7400 8500 50  0001 C CNN
+F 3 "~" H 7400 8500 50  0001 C CNN
+	1    7400 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 5DA94BD7
+P 7150 8750
+F 0 "#PWR0146" H 7150 8500 50  0001 C CNN
+F 1 "GND" H 7150 8600 50  0000 C CNN
+F 2 "" H 7150 8750 50  0000 C CNN
+F 3 "" H 7150 8750 50  0000 C CNN
+	1    7150 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 8750 7150 8600
+Wire Wire Line
+	7150 8600 7200 8600
+Wire Wire Line
+	6200 8500 7200 8500
 $EndSCHEMATC
