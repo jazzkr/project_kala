@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Hat_PCB-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -312,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 6100 1500 6100
 $Comp
-L MCU_Microchip_ATtiny:ATtiny87-MU U2
+L Hat_PCB-rescue:ATtiny87-MU-MCU_Microchip_ATtiny U2
 U 1 1 5C3B6615
 P 5500 9000
 F 0 "U2" H 4860 9046 50  0000 R CNN
@@ -320,17 +319,6 @@ F 1 "ATtiny87-MU" H 4860 8955 50  0000 R CNN
 F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 5500 9000 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc8008.pdf" H 5500 9000 50  0001 C CNN
 	1    5500 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Sensor:BME680 U5
-U 1 1 5C3BDBAD
-P 10100 2900
-F 0 "U5" H 9670 2946 50  0000 R CNN
-F 1 "BME680" H 9670 2855 50  0000 R CNN
-F 2 "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering" H 10100 2700 50  0001 C CNN
-F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf" H 10100 2700 50  0001 C CNN
-	1    10100 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1724,7 +1712,7 @@ Wire Wire Line
 Text Notes 8450 8500 0    118  ~ 24
 Ambient Light Sensor
 $Comp
-L Connector:AVR-ISP-6 J3
+L Hat_PCB-rescue:AVR-ISP-6-Connector J3
 U 1 1 5C497695
 P 3900 8600
 F 0 "J3" H 3620 8696 50  0000 R CNN
@@ -1779,56 +1767,54 @@ PROG_RST_N
 $Comp
 L power:GND #PWR0138
 U 1 1 5C6141F2
-P 13300 9650
-F 0 "#PWR0138" H 13300 9400 50  0001 C CNN
-F 1 "GND" H 13300 9500 50  0000 C CNN
-F 2 "" H 13300 9650 50  0000 C CNN
-F 3 "" H 13300 9650 50  0000 C CNN
-	1    13300 9650
+P 13900 9650
+F 0 "#PWR0138" H 13900 9400 50  0001 C CNN
+F 1 "GND" H 13900 9500 50  0000 C CNN
+F 2 "" H 13900 9650 50  0000 C CNN
+F 3 "" H 13900 9650 50  0000 C CNN
+	1    13900 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0139
 U 1 1 5C62BCDB
-P 12950 8650
-F 0 "#PWR0139" H 12950 8500 50  0001 C CNN
-F 1 "+3.3V" H 12965 8823 50  0000 C CNN
-F 2 "" H 12950 8650 50  0001 C CNN
-F 3 "" H 12950 8650 50  0001 C CNN
-	1    12950 8650
+P 15250 8400
+F 0 "#PWR0139" H 15250 8250 50  0001 C CNN
+F 1 "+3.3V" H 15265 8573 50  0000 C CNN
+F 2 "" H 15250 8400 50  0001 C CNN
+F 3 "" H 15250 8400 50  0001 C CNN
+	1    15250 8400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12550 8900 12200 8900
+	14400 9050 14750 9050
 Wire Wire Line
-	12550 9000 12200 9000
-Text Label 12200 8900 0    50   ~ 0
+	14400 8950 14750 8950
+Text Label 14750 9050 2    50   ~ 0
 SCL
-Text Label 12200 9000 0    50   ~ 0
+Text Label 14750 8950 2    50   ~ 0
 SDA
-Text Label 14000 8900 2    50   ~ 0
+Text Label 12950 8950 0    50   ~ 0
 RTC_32KHZ
 Wire Wire Line
-	13550 8900 14000 8900
+	13400 8950 12950 8950
 Wire Wire Line
-	13550 9200 14000 9200
-Text Label 14000 9200 2    50   ~ 0
-RTC_INT
-Wire Wire Line
-	14300 8650 14300 9050
+	14400 8750 14850 8750
+Text Label 14850 8750 2    50   ~ 0
+RTC_INT1
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5C76C3AB
-P 14300 9250
-F 0 "BT1" H 14418 9346 50  0000 L CNN
-F 1 "Battery_Cell" H 14418 9255 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 14300 9310 50  0001 C CNN
-F 3 "~" V 14300 9310 50  0001 C CNN
-	1    14300 9250
+P 12450 9250
+F 0 "BT1" H 12568 9346 50  0000 L CNN
+F 1 "Battery_Cell" H 12568 9255 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 12450 9310 50  0001 C CNN
+F 3 "~" V 12450 9310 50  0001 C CNN
+	1    12450 9250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14300 9350 14300 9500
+	12450 9350 12450 9500
 $Comp
 L BAV99:BAV99 D1
 U 1 1 5C785273
@@ -1878,10 +1864,8 @@ F 3 "" H 7550 10350 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7550 10200 7550 10350
-Text Notes 12000 8300 0    118  ~ 24
+Text Notes 12350 8250 0    118  ~ 24
 Real Time Clock
-Text Notes 12850 9550 2    50   ~ 10
-I2C Address: 0x68
 Text Notes 10050 10000 2    50   ~ 10
 I2C Address: 0x29
 $Comp
@@ -2296,38 +2280,12 @@ Connection ~ 13150 3450
 Wire Wire Line
 	13150 3450 12800 3450
 Wire Wire Line
-	13300 9500 13300 9650
-Wire Wire Line
-	12950 8700 12950 8650
-Text Label 12200 9300 0    50   ~ 0
-RTC_RST
-Wire Wire Line
-	12200 9300 12550 9300
-Wire Wire Line
-	13050 9500 13300 9500
-Connection ~ 13300 9500
-Wire Wire Line
-	14300 9500 13300 9500
-Wire Wire Line
-	13050 8650 14300 8650
-Wire Wire Line
-	13050 8700 13050 8650
+	13900 9500 13900 9650
 $Comp
-L Timer_RTC:DS3231M U6
-U 1 1 5C5E5A43
-P 13050 9100
-F 0 "U6" H 13050 8614 50  0000 C CNN
-F 1 "DS3231M" H 13050 8523 50  0000 C CNN
-F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 13050 8500 50  0001 C CNN
-F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 13320 9150 50  0001 C CNN
-	1    13050 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J13
 U 1 1 5DA18A45
 P 7400 8500
-F 0 "J?" H 7480 8492 50  0000 L CNN
+F 0 "J13" H 7480 8492 50  0000 L CNN
 F 1 "LED_Out" H 7480 8401 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 7400 8500 50  0001 C CNN
 F 3 "~" H 7400 8500 50  0001 C CNN
@@ -2335,10 +2293,10 @@ F 3 "~" H 7400 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0146
 U 1 1 5DA94BD7
 P 7150 8750
-F 0 "#PWR?" H 7150 8500 50  0001 C CNN
+F 0 "#PWR0146" H 7150 8500 50  0001 C CNN
 F 1 "GND" H 7150 8600 50  0000 C CNN
 F 2 "" H 7150 8750 50  0000 C CNN
 F 3 "" H 7150 8750 50  0000 C CNN
@@ -2351,4 +2309,113 @@ Wire Wire Line
 	7150 8600 7200 8600
 Wire Wire Line
 	6200 8500 7200 8500
+$Comp
+L Sensor:BME280 U?
+U 1 1 5C7E68B8
+P 10100 2900
+F 0 "U?" H 9670 2946 50  0000 R CNN
+F 1 "BME280" H 9670 2855 50  0000 R CNN
+F 2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" H 10100 2700 50  0001 C CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280_DS001-11.pdf" H 10100 2700 50  0001 C CNN
+	1    10100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCF8523TS:PCF8523TS U?
+U 1 1 5C826C76
+P 13900 8850
+F 0 "U?" H 13900 9317 50  0000 C CNN
+F 1 "PCF8523TS" H 13900 9226 50  0000 C CNN
+F 2 "SOT402-1" H 13900 8850 50  0001 L BNN
+F 3 "None" H 13900 8850 50  0001 L BNN
+F 4 "PCF8523TS" H 13900 8850 50  0001 L BNN "Field4"
+F 5 "NXP Semiconductors Real-Time Clock _RTC_ and calendar" H 13900 8850 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 13900 8850 50  0001 L BNN "Field6"
+F 7 "None" H 13900 8850 50  0001 L BNN "Field7"
+F 8 "NXP Semiconductors" H 13900 8850 50  0001 L BNN "Field8"
+	1    13900 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 8850 12450 9050
+Wire Wire Line
+	13400 9050 13350 9050
+Wire Wire Line
+	13350 9050 13350 9500
+Wire Wire Line
+	13350 9500 13900 9500
+Wire Wire Line
+	14400 8850 14850 8850
+Text Label 14850 8850 2    50   ~ 0
+RTC_INT2
+Wire Wire Line
+	12450 8850 13400 8850
+Wire Wire Line
+	12450 9500 13350 9500
+Connection ~ 13350 9500
+$Comp
+L Device:R R?
+U 1 1 5CC00E3F
+P 15000 8650
+F 0 "R?" V 15080 8650 50  0000 C CNN
+F 1 "1K" V 15000 8650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14930 8650 50  0001 C CNN
+F 3 "" H 15000 8650 50  0001 C CNN
+	1    15000 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14400 8650 14850 8650
+Wire Wire Line
+	15150 8650 15250 8650
+Wire Wire Line
+	15250 8400 15250 8650
+Wire Wire Line
+	13900 9500 15250 9500
+Connection ~ 13900 9500
+$Comp
+L Device:C C?
+U 1 1 5CCC1BD0
+P 15250 8900
+F 0 "C?" H 15365 8946 50  0000 L CNN
+F 1 "3.3uF" H 15365 8855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15288 8750 50  0001 C CNN
+F 3 "~" H 15250 8900 50  0001 C CNN
+	1    15250 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 9500 15250 9050
+Wire Wire Line
+	15250 8750 15250 8650
+Connection ~ 15250 8650
+Text Notes 12800 9850 0    50   ~ 10
+I2C Addresses: \n0xD0 (Writing)\n0xD1 (Reading)
+$Comp
+L Device:Crystal Y?
+U 1 1 5CDA6FB6
+P 12800 8600
+F 0 "Y?" V 12754 8731 50  0000 L CNN
+F 1 "Crystal" V 12845 8731 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering" H 12800 8600 50  0001 C CNN
+F 3 "~" H 12800 8600 50  0001 C CNN
+	1    12800 8600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 8650 13250 8650
+Wire Wire Line
+	13250 8650 13250 8400
+Wire Wire Line
+	13250 8400 12800 8400
+Wire Wire Line
+	12800 8400 12800 8450
+Wire Wire Line
+	12800 8750 12800 8800
+Wire Wire Line
+	12800 8800 13250 8800
+Wire Wire Line
+	13250 8800 13250 8750
+Wire Wire Line
+	13250 8750 13400 8750
 $EndSCHEMATC
