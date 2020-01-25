@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +VCC_1V25
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +VCC_3V0
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +VCC_3V3
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +VDRAM_1V8
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +VIN_5V
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +VRTC_3V3
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+$CMP +VUSB_5V
+D Power symbol creates a global label with name "+1V2"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

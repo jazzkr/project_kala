@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PCF8523TS
+#
+DEF PCF8523TS U 0 40 Y Y 1 L N
+F0 "U" -300 400 50 H V L BNN
+F1 "PCF8523TS" 200 -400 50 H V L BNN
+F2 "SOT402-1" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "PCF8523TS" 0 0 50 H I L BNN
+F5 "NXP Semiconductors Real-Time Clock _RTC_ and calendar" 0 0 50 H I L BNN
+F6 "Unavailable" 0 0 50 H I L BNN
+F7 "None" 0 0 50 H I L BNN
+F8 "NXP Semiconductors" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 300 400 300 N
+P 2 0 0 10 400 300 400 -300 N
+P 2 0 0 10 400 -300 -400 -300 N
+P 2 0 0 10 -400 -300 -400 300 N
+X OSCO 2 -500 100 100 R 40 40 0 0 P 
+X OSCI 1 -500 200 100 R 40 40 0 0 P 
+X INT1 13 500 100 100 L 40 40 0 0 O I
+X VDD 12 500 200 100 L 40 40 0 0 W 
+X VBAT 4 -500 0 100 R 40 40 0 0 W 
+X VSS 5 -500 -200 100 R 40 40 0 0 W 
+X SDA 10 500 -200 100 L 40 40 0 0 B 
+X SCL 11 500 -100 100 L 40 40 0 0 I 
+X INT2 7 500 0 100 L 40 40 0 0 O I
+X CLKOUT 8 -500 -100 100 R 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,3891 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr User 18796 12546
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2000 8900 2000 8200
+Wire Wire Line
+	2000 8200 3800 8200
+Wire Wire Line
+	3800 9050 3900 9050
+Text Label 1500 8900 0    70   ~ 0
+DATA_IN
+Connection ~ 2000 8900
+Wire Wire Line
+	4800 10800 4700 10800
+Wire Wire Line
+	4700 10800 4400 10800
+Wire Wire Line
+	4800 10900 4700 10900
+Wire Wire Line
+	4700 10900 4700 10800
+Text Label 4400 10800 0    70   ~ 0
+DATA_IN
+Connection ~ 4700 10800
+Wire Wire Line
+	3100 8900 3200 8900
+Wire Wire Line
+	3200 8900 3200 8500
+Wire Wire Line
+	3200 8500 3200 8400
+Wire Wire Line
+	3400 8600 3400 8500
+Wire Wire Line
+	3400 8500 3200 8500
+Connection ~ 3200 8500
+Text Label 3100 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	5100 8900 5100 8500
+Wire Wire Line
+	5100 8500 5100 8400
+Wire Wire Line
+	5100 8900 5000 8900
+Wire Wire Line
+	5300 8500 5100 8500
+Wire Wire Line
+	5300 8600 5300 8500
+Connection ~ 5100 8500
+Text Label 5100 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	7000 8900 7000 8500
+Wire Wire Line
+	7000 8500 7000 8400
+Wire Wire Line
+	7000 8900 6900 8900
+Wire Wire Line
+	7200 8500 7000 8500
+Wire Wire Line
+	7200 8600 7200 8500
+Connection ~ 7000 8500
+Text Label 7000 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	8900 8900 8900 8500
+Wire Wire Line
+	8900 8500 8900 8400
+Wire Wire Line
+	8900 8900 8800 8900
+Wire Wire Line
+	9100 8500 8900 8500
+Wire Wire Line
+	9100 8600 9100 8500
+Connection ~ 8900 8500
+Text Label 8900 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	10800 8900 10800 8500
+Wire Wire Line
+	10800 8500 10800 8400
+Wire Wire Line
+	10800 8900 10700 8900
+Wire Wire Line
+	11000 8500 10800 8500
+Wire Wire Line
+	11000 8600 11000 8500
+Connection ~ 10800 8500
+Text Label 10800 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	12700 8900 12700 8500
+Wire Wire Line
+	12700 8500 12700 8400
+Wire Wire Line
+	12700 8900 12600 8900
+Wire Wire Line
+	12900 8500 12700 8500
+Wire Wire Line
+	12900 8600 12900 8500
+Connection ~ 12700 8500
+Text Label 12700 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	14700 8900 14700 8500
+Wire Wire Line
+	14700 8500 14700 8400
+Wire Wire Line
+	14700 8900 14600 8900
+Wire Wire Line
+	14900 8500 14700 8500
+Wire Wire Line
+	14900 8600 14900 8500
+Connection ~ 14700 8500
+Text Label 14700 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	16600 8900 16600 8500
+Wire Wire Line
+	16600 8500 16600 8400
+Wire Wire Line
+	16600 8900 16500 8900
+Wire Wire Line
+	16800 8500 16600 8500
+Wire Wire Line
+	16800 8600 16800 8500
+Connection ~ 16600 8500
+Text Label 16600 8900 0    10   ~ 0
+5V
+Wire Wire Line
+	3100 6500 3200 6500
+Wire Wire Line
+	3200 6500 3200 6100
+Wire Wire Line
+	3200 6100 3200 6000
+Wire Wire Line
+	3400 6200 3400 6100
+Wire Wire Line
+	3400 6100 3200 6100
+Connection ~ 3200 6100
+Text Label 3100 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	5100 6500 5100 6100
+Wire Wire Line
+	5100 6100 5100 6000
+Wire Wire Line
+	5100 6500 5000 6500
+Wire Wire Line
+	5300 6100 5100 6100
+Wire Wire Line
+	5300 6200 5300 6100
+Connection ~ 5100 6100
+Text Label 5100 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	7000 6500 7000 6100
+Wire Wire Line
+	7000 6100 7000 6000
+Wire Wire Line
+	7000 6500 6900 6500
+Wire Wire Line
+	7200 6100 7000 6100
+Wire Wire Line
+	7200 6200 7200 6100
+Connection ~ 7000 6100
+Text Label 7000 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	8900 6500 8900 6100
+Wire Wire Line
+	8900 6100 8900 6000
+Wire Wire Line
+	8900 6500 8800 6500
+Wire Wire Line
+	9100 6100 8900 6100
+Wire Wire Line
+	9100 6200 9100 6100
+Connection ~ 8900 6100
+Text Label 8900 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	10800 6500 10800 6100
+Wire Wire Line
+	10800 6100 10800 6000
+Wire Wire Line
+	10800 6500 10700 6500
+Wire Wire Line
+	11000 6100 10800 6100
+Wire Wire Line
+	11000 6200 11000 6100
+Connection ~ 10800 6100
+Text Label 10800 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	12700 6500 12700 6100
+Wire Wire Line
+	12700 6100 12700 6000
+Wire Wire Line
+	12700 6500 12600 6500
+Wire Wire Line
+	12900 6100 12700 6100
+Wire Wire Line
+	12900 6200 12900 6100
+Connection ~ 12700 6100
+Text Label 12700 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	14700 6500 14700 6100
+Wire Wire Line
+	14700 6100 14700 6000
+Wire Wire Line
+	14700 6500 14600 6500
+Wire Wire Line
+	14900 6100 14700 6100
+Wire Wire Line
+	14900 6200 14900 6100
+Connection ~ 14700 6100
+Text Label 14700 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	16600 6500 16600 6100
+Wire Wire Line
+	16600 6100 16600 6000
+Wire Wire Line
+	16600 6500 16500 6500
+Wire Wire Line
+	16800 6100 16600 6100
+Wire Wire Line
+	16800 6200 16800 6100
+Connection ~ 16600 6100
+Text Label 16600 6500 0    10   ~ 0
+5V
+Wire Wire Line
+	3100 4200 3200 4200
+Wire Wire Line
+	3200 4200 3200 3800
+Wire Wire Line
+	3200 3800 3200 3700
+Wire Wire Line
+	3400 3900 3400 3800
+Wire Wire Line
+	3400 3800 3200 3800
+Connection ~ 3200 3800
+Text Label 3100 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	5100 4200 5100 3800
+Wire Wire Line
+	5100 3800 5100 3700
+Wire Wire Line
+	5100 4200 5000 4200
+Wire Wire Line
+	5300 3800 5100 3800
+Wire Wire Line
+	5300 3900 5300 3800
+Connection ~ 5100 3800
+Text Label 5100 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	7000 4200 7000 3800
+Wire Wire Line
+	7000 3800 7000 3700
+Wire Wire Line
+	7000 4200 6900 4200
+Wire Wire Line
+	7200 3800 7000 3800
+Wire Wire Line
+	7200 3900 7200 3800
+Connection ~ 7000 3800
+Text Label 7000 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	8900 4200 8900 3800
+Wire Wire Line
+	8900 3800 8900 3700
+Wire Wire Line
+	8900 4200 8800 4200
+Wire Wire Line
+	9100 3800 8900 3800
+Wire Wire Line
+	9100 3900 9100 3800
+Connection ~ 8900 3800
+Text Label 8900 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	10800 4200 10800 3800
+Wire Wire Line
+	10800 3800 10800 3700
+Wire Wire Line
+	10800 4200 10700 4200
+Wire Wire Line
+	11000 3800 10800 3800
+Wire Wire Line
+	11000 3900 11000 3800
+Connection ~ 10800 3800
+Text Label 10800 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	12700 4200 12700 3800
+Wire Wire Line
+	12700 3800 12700 3700
+Wire Wire Line
+	12700 4200 12600 4200
+Wire Wire Line
+	12900 3800 12700 3800
+Wire Wire Line
+	12900 3900 12900 3800
+Connection ~ 12700 3800
+Text Label 12700 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	14700 4200 14700 3800
+Wire Wire Line
+	14700 3800 14700 3700
+Wire Wire Line
+	14700 4200 14600 4200
+Wire Wire Line
+	14900 3800 14700 3800
+Wire Wire Line
+	14900 3900 14900 3800
+Connection ~ 14700 3800
+Text Label 14700 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	16600 4200 16600 3800
+Wire Wire Line
+	16600 3800 16600 3700
+Wire Wire Line
+	16600 4200 16500 4200
+Wire Wire Line
+	16800 3800 16600 3800
+Wire Wire Line
+	16800 3900 16800 3800
+Connection ~ 16600 3800
+Text Label 16600 4200 0    10   ~ 0
+5V
+Wire Wire Line
+	3100 1900 3200 1900
+Wire Wire Line
+	3200 1900 3200 1500
+Wire Wire Line
+	3200 1500 3200 1400
+Wire Wire Line
+	3400 1600 3400 1500
+Wire Wire Line
+	3400 1500 3200 1500
+Connection ~ 3200 1500
+Text Label 3100 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	5100 1900 5100 1500
+Wire Wire Line
+	5100 1500 5100 1400
+Wire Wire Line
+	5100 1900 5000 1900
+Wire Wire Line
+	5300 1500 5100 1500
+Wire Wire Line
+	5300 1600 5300 1500
+Connection ~ 5100 1500
+Text Label 5100 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	7000 1900 7000 1500
+Wire Wire Line
+	7000 1500 7000 1400
+Wire Wire Line
+	7000 1900 6900 1900
+Wire Wire Line
+	7200 1500 7000 1500
+Wire Wire Line
+	7200 1600 7200 1500
+Connection ~ 7000 1500
+Text Label 7000 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	8900 1900 8900 1500
+Wire Wire Line
+	8900 1500 8900 1400
+Wire Wire Line
+	8900 1900 8800 1900
+Wire Wire Line
+	9100 1500 8900 1500
+Wire Wire Line
+	9100 1600 9100 1500
+Connection ~ 8900 1500
+Text Label 8900 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	10800 1900 10800 1500
+Wire Wire Line
+	10800 1500 10800 1400
+Wire Wire Line
+	10800 1900 10700 1900
+Wire Wire Line
+	11000 1500 10800 1500
+Wire Wire Line
+	11000 1600 11000 1500
+Connection ~ 10800 1500
+Text Label 10800 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	12700 1900 12700 1500
+Wire Wire Line
+	12700 1500 12700 1400
+Wire Wire Line
+	12700 1900 12600 1900
+Wire Wire Line
+	12900 1500 12700 1500
+Wire Wire Line
+	12900 1600 12900 1500
+Connection ~ 12700 1500
+Text Label 12700 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	14700 1900 14700 1500
+Wire Wire Line
+	14700 1500 14700 1400
+Wire Wire Line
+	14700 1900 14600 1900
+Wire Wire Line
+	14900 1500 14700 1500
+Wire Wire Line
+	14900 1600 14900 1500
+Connection ~ 14700 1500
+Text Label 14700 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	16600 1900 16600 1500
+Wire Wire Line
+	16600 1500 16600 1400
+Wire Wire Line
+	16600 1900 16500 1900
+Wire Wire Line
+	16800 1500 16600 1500
+Wire Wire Line
+	16800 1600 16800 1500
+Connection ~ 16600 1500
+Text Label 16600 1900 0    10   ~ 0
+5V
+Wire Wire Line
+	8400 11200 8300 11200
+Wire Wire Line
+	8300 11200 8300 11100
+Wire Wire Line
+	8300 11100 8400 11100
+Wire Wire Line
+	8300 11100 8300 11000
+Wire Wire Line
+	8300 11000 8400 11000
+Wire Wire Line
+	8300 11000 8300 10900
+Wire Wire Line
+	8300 10900 8400 10900
+Wire Wire Line
+	8300 10900 8300 10800
+Wire Wire Line
+	8300 10800 8400 10800
+Wire Wire Line
+	8300 10800 8300 10600
+Connection ~ 8300 11100
+Connection ~ 8300 11000
+Connection ~ 8300 10900
+Connection ~ 8300 10800
+Text Label 8400 11200 0    10   ~ 0
+5V
+Wire Wire Line
+	3100 9200 3600 9200
+Wire Wire Line
+	3600 9200 3600 8900
+Wire Wire Line
+	3600 8900 3900 8900
+Wire Wire Line
+	3900 8900 3900 8200
+Wire Wire Line
+	3900 8200 5700 8200
+Wire Wire Line
+	5700 9050 5800 9050
+Connection ~ 3900 8900
+Text Label 4000 8200 0    70   ~ 0
+DO1
+Wire Wire Line
+	3100 9050 3400 9050
+Wire Wire Line
+	3400 9050 3400 9000
+Wire Wire Line
+	3400 9300 3400 9050
+Connection ~ 3400 9050
+Wire Wire Line
+	5000 9050 5300 9050
+Wire Wire Line
+	5300 9050 5300 9000
+Wire Wire Line
+	5300 9300 5300 9050
+Connection ~ 5300 9050
+Wire Wire Line
+	5500 8900 5800 8900
+Wire Wire Line
+	5000 9200 5500 9200
+Wire Wire Line
+	5500 9200 5500 8900
+Wire Wire Line
+	5800 8900 5800 8200
+Wire Wire Line
+	5800 8200 7600 8200
+Wire Wire Line
+	7600 8200 7600 9050
+Wire Wire Line
+	7600 9050 7700 9050
+Connection ~ 5800 8900
+Text Label 5900 8200 0    70   ~ 0
+DO2
+Wire Wire Line
+	6900 9050 7200 9050
+Wire Wire Line
+	7200 9050 7200 9000
+Wire Wire Line
+	7200 9300 7200 9050
+Connection ~ 7200 9050
+Wire Wire Line
+	7400 8900 7700 8900
+Wire Wire Line
+	6900 9200 7400 9200
+Wire Wire Line
+	7400 9200 7400 8900
+Wire Wire Line
+	7700 8900 7700 8200
+Wire Wire Line
+	7700 8200 9500 8200
+Wire Wire Line
+	9500 9050 9600 9050
+Connection ~ 7700 8900
+Text Label 7800 8200 0    70   ~ 0
+DO3
+Wire Wire Line
+	8800 9050 9100 9050
+Wire Wire Line
+	9100 9050 9100 9000
+Wire Wire Line
+	9100 9300 9100 9050
+Connection ~ 9100 9050
+Wire Wire Line
+	9300 8900 9600 8900
+Wire Wire Line
+	8800 9200 9300 9200
+Wire Wire Line
+	9300 9200 9300 8900
+Wire Wire Line
+	9600 8900 9600 8200
+Wire Wire Line
+	9600 8200 11400 8200
+Wire Wire Line
+	11400 8200 11400 9050
+Wire Wire Line
+	11400 9050 11500 9050
+Connection ~ 9600 8900
+Text Label 9700 8200 0    70   ~ 0
+DO4
+Wire Wire Line
+	10700 9050 11000 9050
+Wire Wire Line
+	11000 9050 11000 9000
+Wire Wire Line
+	11000 9300 11000 9050
+Connection ~ 11000 9050
+Wire Wire Line
+	11200 8900 11500 8900
+Wire Wire Line
+	10700 9200 11200 9200
+Wire Wire Line
+	11200 9200 11200 8900
+Wire Wire Line
+	11500 8900 11500 8200
+Wire Wire Line
+	11500 8200 13400 8200
+Wire Wire Line
+	13400 8200 13400 9050
+Wire Wire Line
+	13400 9050 13500 9050
+Connection ~ 11500 8900
+Text Label 11600 8200 0    70   ~ 0
+DO5
+Wire Wire Line
+	12600 9050 12900 9050
+Wire Wire Line
+	12900 9050 12900 9000
+Wire Wire Line
+	12900 9300 12900 9050
+Connection ~ 12900 9050
+Wire Wire Line
+	13200 8900 13500 8900
+Wire Wire Line
+	12600 9200 13200 9200
+Wire Wire Line
+	13200 9200 13200 8900
+Wire Wire Line
+	13500 8900 13500 8200
+Wire Wire Line
+	13500 8200 15300 8200
+Wire Wire Line
+	15300 9050 15400 9050
+Wire Wire Line
+	15300 8200 15300 9050
+Connection ~ 13500 8900
+Text Label 13700 8200 0    70   ~ 0
+DO6
+Wire Wire Line
+	14600 9050 14900 9050
+Wire Wire Line
+	14900 9050 14900 9000
+Wire Wire Line
+	14900 9300 14900 9050
+Connection ~ 14900 9050
+Wire Wire Line
+	16500 9050 16800 9050
+Wire Wire Line
+	16800 9050 16800 9000
+Wire Wire Line
+	16800 9300 16800 9050
+Connection ~ 16800 9050
+Wire Wire Line
+	3100 6800 3600 6800
+Wire Wire Line
+	3600 6800 3600 6500
+Wire Wire Line
+	3600 6500 3900 6500
+Wire Wire Line
+	3900 6500 3900 5800
+Wire Wire Line
+	3900 5800 5700 5800
+Wire Wire Line
+	5700 5800 5700 6650
+Wire Wire Line
+	5700 6650 5800 6650
+Connection ~ 3900 6500
+Text Label 4000 5800 0    70   ~ 0
+DO9
+Wire Wire Line
+	3100 6650 3400 6650
+Wire Wire Line
+	3400 6650 3400 6600
+Wire Wire Line
+	3400 6900 3400 6650
+Connection ~ 3400 6650
+Wire Wire Line
+	5000 6650 5300 6650
+Wire Wire Line
+	5300 6650 5300 6600
+Wire Wire Line
+	5300 6900 5300 6650
+Connection ~ 5300 6650
+Wire Wire Line
+	5500 6500 5800 6500
+Wire Wire Line
+	5000 6800 5500 6800
+Wire Wire Line
+	5500 6800 5500 6500
+Wire Wire Line
+	5800 6500 5800 5800
+Wire Wire Line
+	5800 5800 7600 5800
+Wire Wire Line
+	7600 5800 7600 6650
+Wire Wire Line
+	7600 6650 7700 6650
+Connection ~ 5800 6500
+Text Label 5900 5800 0    70   ~ 0
+DO10
+Wire Wire Line
+	6900 6650 7200 6650
+Wire Wire Line
+	7200 6650 7200 6600
+Wire Wire Line
+	7200 6900 7200 6650
+Connection ~ 7200 6650
+Wire Wire Line
+	7400 6500 7700 6500
+Wire Wire Line
+	6900 6800 7400 6800
+Wire Wire Line
+	7400 6800 7400 6500
+Wire Wire Line
+	7700 6500 7700 5800
+Wire Wire Line
+	7700 5800 9500 5800
+Wire Wire Line
+	9500 5800 9500 6650
+Wire Wire Line
+	9500 6650 9600 6650
+Connection ~ 7700 6500
+Text Label 7800 5800 0    70   ~ 0
+DO11
+Wire Wire Line
+	8800 6650 9100 6650
+Wire Wire Line
+	9100 6650 9100 6600
+Wire Wire Line
+	9100 6900 9100 6650
+Connection ~ 9100 6650
+Wire Wire Line
+	9300 6500 9600 6500
+Wire Wire Line
+	8800 6800 9300 6800
+Wire Wire Line
+	9300 6800 9300 6500
+Wire Wire Line
+	9600 6500 9600 5800
+Wire Wire Line
+	9600 5800 11400 5800
+Wire Wire Line
+	11400 5800 11400 6650
+Wire Wire Line
+	11400 6650 11500 6650
+Connection ~ 9600 6500
+Text Label 9700 5800 0    70   ~ 0
+DO12
+Wire Wire Line
+	10700 6650 11000 6650
+Wire Wire Line
+	11000 6650 11000 6600
+Wire Wire Line
+	11000 6900 11000 6650
+Connection ~ 11000 6650
+Wire Wire Line
+	11200 6500 11500 6500
+Wire Wire Line
+	10700 6800 11200 6800
+Wire Wire Line
+	11200 6800 11200 6500
+Wire Wire Line
+	11500 6500 11500 5800
+Wire Wire Line
+	11500 5800 13400 5800
+Wire Wire Line
+	13400 6650 13500 6650
+Connection ~ 11500 6500
+Text Label 11600 5800 0    70   ~ 0
+DO13
+Wire Wire Line
+	12600 6650 12900 6650
+Wire Wire Line
+	12900 6650 12900 6600
+Wire Wire Line
+	12900 6900 12900 6650
+Connection ~ 12900 6650
+Wire Wire Line
+	13200 6500 13500 6500
+Wire Wire Line
+	12600 6800 13200 6800
+Wire Wire Line
+	13200 6800 13200 6500
+Wire Wire Line
+	13500 6500 13500 5800
+Wire Wire Line
+	13500 5800 15300 5800
+Wire Wire Line
+	15300 6650 15400 6650
+Connection ~ 13500 6500
+Text Label 13600 5800 0    70   ~ 0
+DO14
+Wire Wire Line
+	14600 6650 14900 6650
+Wire Wire Line
+	14900 6650 14900 6600
+Wire Wire Line
+	14900 6900 14900 6650
+Connection ~ 14900 6650
+Wire Wire Line
+	15100 6500 15400 6500
+Wire Wire Line
+	14600 6800 15100 6800
+Wire Wire Line
+	15100 6800 15100 6500
+Wire Wire Line
+	15400 6500 15400 5600
+Wire Wire Line
+	1700 4350 2000 4350
+Connection ~ 15400 6500
+Text Label 15400 5700 0    70   ~ 0
+DO15
+Wire Wire Line
+	16500 6650 16800 6650
+Wire Wire Line
+	16800 6650 16800 6600
+Wire Wire Line
+	16800 6900 16800 6650
+Connection ~ 16800 6650
+Wire Wire Line
+	15100 8900 15400 8900
+Wire Wire Line
+	14600 9200 15100 9200
+Wire Wire Line
+	15100 9200 15100 8900
+Wire Wire Line
+	15400 8900 15400 8000
+Wire Wire Line
+	15400 8000 1700 8000
+Wire Wire Line
+	2000 6650 1700 6650
+Wire Wire Line
+	1700 6650 1700 8000
+Connection ~ 15400 8900
+Text Label 15400 8100 0    70   ~ 0
+DO7
+Wire Wire Line
+	3100 4500 3600 4500
+Wire Wire Line
+	3600 4500 3600 4200
+Wire Wire Line
+	3600 4200 3900 4200
+Wire Wire Line
+	3900 4200 3900 3500
+Wire Wire Line
+	3900 3500 5700 3500
+Wire Wire Line
+	5700 4350 5800 4350
+Connection ~ 3900 4200
+Text Label 4000 3500 0    70   ~ 0
+DO17
+Wire Wire Line
+	3100 4350 3400 4350
+Wire Wire Line
+	3400 4350 3400 4300
+Wire Wire Line
+	3400 4600 3400 4350
+Connection ~ 3400 4350
+Wire Wire Line
+	5000 4350 5300 4350
+Wire Wire Line
+	5300 4350 5300 4300
+Wire Wire Line
+	5300 4600 5300 4350
+Connection ~ 5300 4350
+Wire Wire Line
+	5500 4200 5800 4200
+Wire Wire Line
+	5000 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 4200
+Wire Wire Line
+	5800 4200 5800 3500
+Wire Wire Line
+	5800 3500 7600 3500
+Wire Wire Line
+	7600 4350 7700 4350
+Connection ~ 5800 4200
+Text Label 5900 3500 0    70   ~ 0
+DO18
+Wire Wire Line
+	6900 4350 7200 4350
+Wire Wire Line
+	7200 4350 7200 4300
+Wire Wire Line
+	7200 4600 7200 4350
+Connection ~ 7200 4350
+Wire Wire Line
+	7400 4200 7700 4200
+Wire Wire Line
+	6900 4500 7400 4500
+Wire Wire Line
+	7400 4500 7400 4200
+Wire Wire Line
+	7700 4200 7700 3500
+Wire Wire Line
+	9500 4350 9600 4350
+Connection ~ 7700 4200
+Text Label 7800 3500 0    70   ~ 0
+DO19
+Wire Wire Line
+	8800 4350 9100 4350
+Wire Wire Line
+	9100 4350 9100 4300
+Wire Wire Line
+	9100 4600 9100 4350
+Connection ~ 9100 4350
+Wire Wire Line
+	9300 4200 9600 4200
+Wire Wire Line
+	8800 4500 9300 4500
+Wire Wire Line
+	9300 4500 9300 4200
+Wire Wire Line
+	9600 4200 9600 3500
+Wire Wire Line
+	9600 3500 11400 3500
+Wire Wire Line
+	11400 4350 11500 4350
+Connection ~ 9600 4200
+Text Label 9700 3500 0    70   ~ 0
+DO20
+Wire Wire Line
+	10700 4350 11000 4350
+Wire Wire Line
+	11000 4350 11000 4300
+Wire Wire Line
+	11000 4600 11000 4350
+Connection ~ 11000 4350
+Wire Wire Line
+	11200 4200 11500 4200
+Wire Wire Line
+	10700 4500 11200 4500
+Wire Wire Line
+	11200 4500 11200 4200
+Wire Wire Line
+	11500 4200 11500 3500
+Wire Wire Line
+	13400 4350 13500 4350
+Connection ~ 11500 4200
+Text Label 11600 3500 0    70   ~ 0
+DO21
+Wire Wire Line
+	12600 4350 12900 4350
+Wire Wire Line
+	12900 4350 12900 4300
+Wire Wire Line
+	12900 4600 12900 4350
+Connection ~ 12900 4350
+Wire Wire Line
+	13200 4200 13500 4200
+Wire Wire Line
+	12600 4500 13200 4500
+Wire Wire Line
+	13200 4500 13200 4200
+Wire Wire Line
+	13500 4200 13500 3500
+Wire Wire Line
+	13500 3500 15300 3500
+Wire Wire Line
+	15300 4350 15400 4350
+Connection ~ 13500 4200
+Text Label 13600 3500 0    70   ~ 0
+DO22
+Wire Wire Line
+	14600 4350 14900 4350
+Wire Wire Line
+	14900 4350 14900 4300
+Wire Wire Line
+	14900 4600 14900 4350
+Connection ~ 14900 4350
+Wire Wire Line
+	15100 4200 15400 4200
+Wire Wire Line
+	14600 4500 15100 4500
+Wire Wire Line
+	15100 4500 15100 4200
+Wire Wire Line
+	1700 3300 1700 2050
+Wire Wire Line
+	1700 2050 2000 2050
+Connection ~ 15400 4200
+Text Label 15400 3400 0    70   ~ 0
+DO23
+Wire Wire Line
+	16500 4350 16800 4350
+Wire Wire Line
+	16800 4350 16800 4300
+Wire Wire Line
+	16800 4600 16800 4350
+Connection ~ 16800 4350
+Wire Wire Line
+	3100 2200 3600 2200
+Wire Wire Line
+	3600 2200 3600 1900
+Wire Wire Line
+	3600 1900 3900 1900
+Wire Wire Line
+	3900 1900 3900 1200
+Wire Wire Line
+	3900 1200 5700 1200
+Wire Wire Line
+	5700 2050 5800 2050
+Connection ~ 3900 1900
+Text Label 4000 1200 0    70   ~ 0
+DO25
+Wire Wire Line
+	3100 2050 3400 2050
+Wire Wire Line
+	3400 2050 3400 2000
+Wire Wire Line
+	3400 2300 3400 2050
+Connection ~ 3400 2050
+Wire Wire Line
+	5000 2050 5300 2050
+Wire Wire Line
+	5300 2050 5300 2000
+Wire Wire Line
+	5300 2300 5300 2050
+Connection ~ 5300 2050
+Wire Wire Line
+	5500 1900 5800 1900
+Wire Wire Line
+	5000 2200 5500 2200
+Wire Wire Line
+	5500 2200 5500 1900
+Wire Wire Line
+	5800 1900 5800 1200
+Wire Wire Line
+	5800 1200 7600 1200
+Wire Wire Line
+	7600 2050 7700 2050
+Connection ~ 5800 1900
+Text Label 5900 1200 0    70   ~ 0
+DO26
+Wire Wire Line
+	6900 2050 7200 2050
+Wire Wire Line
+	7200 2050 7200 2000
+Wire Wire Line
+	7200 2300 7200 2050
+Connection ~ 7200 2050
+Wire Wire Line
+	7400 1900 7700 1900
+Wire Wire Line
+	6900 2200 7400 2200
+Wire Wire Line
+	7400 2200 7400 1900
+Wire Wire Line
+	7700 1900 7700 1200
+Wire Wire Line
+	7700 1200 9500 1200
+Wire Wire Line
+	9500 2050 9600 2050
+Connection ~ 7700 1900
+Text Label 7800 1200 0    70   ~ 0
+DO27
+Wire Wire Line
+	8800 2050 9100 2050
+Wire Wire Line
+	9100 2050 9100 2000
+Wire Wire Line
+	9100 2300 9100 2050
+Connection ~ 9100 2050
+Wire Wire Line
+	9300 1900 9600 1900
+Wire Wire Line
+	8800 2200 9300 2200
+Wire Wire Line
+	9300 2200 9300 1900
+Wire Wire Line
+	9600 1900 9600 1200
+Wire Wire Line
+	9600 1200 11400 1200
+Wire Wire Line
+	11400 2050 11500 2050
+Connection ~ 9600 1900
+Text Label 9700 1200 0    70   ~ 0
+DO28
+Wire Wire Line
+	10700 2050 11000 2050
+Wire Wire Line
+	11000 2050 11000 2000
+Wire Wire Line
+	11000 2300 11000 2050
+Connection ~ 11000 2050
+Wire Wire Line
+	11200 1900 11500 1900
+Wire Wire Line
+	10700 2200 11200 2200
+Wire Wire Line
+	11200 2200 11200 1900
+Wire Wire Line
+	11500 1900 11500 1200
+Wire Wire Line
+	11500 1200 13400 1200
+Wire Wire Line
+	13400 1200 13400 2050
+Wire Wire Line
+	13400 2050 13500 2050
+Connection ~ 11500 1900
+Text Label 11600 1200 0    70   ~ 0
+DO29
+Wire Wire Line
+	12600 2050 12900 2050
+Wire Wire Line
+	12900 2050 12900 2000
+Wire Wire Line
+	12900 2300 12900 2050
+Connection ~ 12900 2050
+Wire Wire Line
+	13200 1900 13500 1900
+Wire Wire Line
+	12600 2200 13200 2200
+Wire Wire Line
+	13200 2200 13200 1900
+Wire Wire Line
+	13500 1900 13500 1200
+Wire Wire Line
+	13500 1200 15300 1200
+Wire Wire Line
+	15300 2050 15400 2050
+Connection ~ 13500 1900
+Text Label 13600 1200 0    70   ~ 0
+DO30
+Wire Wire Line
+	14600 2050 14900 2050
+Wire Wire Line
+	14900 2050 14900 2000
+Wire Wire Line
+	14900 2300 14900 2050
+Connection ~ 14900 2050
+Wire Wire Line
+	15100 1900 15400 1900
+Wire Wire Line
+	14600 2200 15100 2200
+Wire Wire Line
+	15100 2200 15100 1900
+Wire Wire Line
+	15400 1900 15400 1200
+Wire Wire Line
+	15400 1200 15800 1200
+Connection ~ 15400 1900
+Text Label 15400 1200 0    70   ~ 0
+B_OUT
+Wire Wire Line
+	6600 11200 6500 11200
+Wire Wire Line
+	6600 11100 6500 11100
+Wire Wire Line
+	6500 11200 6500 11100
+Connection ~ 6500 11100
+Text Label 6100 11100 0    70   ~ 0
+B_OUT
+Wire Wire Line
+	16500 2050 16800 2050
+Wire Wire Line
+	16800 2050 16800 2000
+Wire Wire Line
+	16800 2300 16800 2050
+Connection ~ 16800 2050
+Wire Wire Line
+	16500 6800 17100 6800
+Wire Wire Line
+	17100 6800 17100 5500
+Wire Wire Line
+	17100 5500 1600 5500
+Wire Wire Line
+	1600 4200 2000 4200
+Wire Wire Line
+	2000 4200 2000 3500
+Wire Wire Line
+	3800 4350 3900 4350
+Connection ~ 2000 4200
+Text Label 2100 3500 0    70   ~ 0
+DO16
+Wire Wire Line
+	16500 4500 17100 4500
+Wire Wire Line
+	17100 4500 17100 3200
+Wire Wire Line
+	17100 3200 1600 3200
+Wire Wire Line
+	1600 3200 1600 1900
+Wire Wire Line
+	1600 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 1200
+Wire Wire Line
+	2000 1200 3800 1200
+Wire Wire Line
+	3800 2050 3900 2050
+Connection ~ 2000 1900
+Text Label 2100 1200 0    70   ~ 0
+DO24
+Wire Wire Line
+	1900 9700 1900 9200
+Wire Wire Line
+	1900 9200 2000 9200
+Text Label 1900 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 9700 3400 9600
+Text Label 3400 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 9700 3800 9200
+Wire Wire Line
+	3800 9200 3900 9200
+Text Label 3800 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 9700 5300 9600
+Text Label 5300 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 9700 5700 9200
+Wire Wire Line
+	5700 9200 5800 9200
+Text Label 5700 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 9700 7200 9600
+Text Label 7200 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 9700 7600 9200
+Wire Wire Line
+	7600 9200 7700 9200
+Text Label 7600 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 9700 9100 9600
+Text Label 9100 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 9700 9500 9200
+Wire Wire Line
+	9500 9200 9600 9200
+Text Label 9500 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	11000 9700 11000 9600
+Text Label 11000 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	11400 9700 11400 9200
+Wire Wire Line
+	11400 9200 11500 9200
+Text Label 11400 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	12900 9700 12900 9600
+Text Label 12900 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	13400 9700 13400 9200
+Wire Wire Line
+	13400 9200 13500 9200
+Text Label 13400 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	14900 9700 14900 9600
+Text Label 14900 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	15300 9700 15300 9200
+Wire Wire Line
+	15300 9200 15400 9200
+Text Label 15300 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	16800 9700 16800 9600
+Text Label 16800 9700 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 7300 1900 6800
+Wire Wire Line
+	1900 6800 2000 6800
+Text Label 1900 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 7300 3800 6800
+Wire Wire Line
+	3800 6800 3900 6800
+Text Label 3800 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 7300 3400 7200
+Text Label 3400 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 7300 5300 7200
+Text Label 5300 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 7300 5700 6800
+Wire Wire Line
+	5700 6800 5800 6800
+Text Label 5700 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 7300 7200 7200
+Text Label 7200 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 7300 7600 6800
+Wire Wire Line
+	7600 6800 7700 6800
+Text Label 7600 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 7300 9100 7200
+Text Label 9100 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 7300 9500 6800
+Wire Wire Line
+	9500 6800 9600 6800
+Text Label 9500 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	11000 7300 11000 7200
+Text Label 11000 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	11400 7300 11400 6800
+Wire Wire Line
+	11400 6800 11500 6800
+Text Label 11400 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	12900 7300 12900 7200
+Text Label 12900 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	13400 7300 13400 6800
+Wire Wire Line
+	13400 6800 13500 6800
+Text Label 13400 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	14900 7300 14900 7200
+Text Label 14900 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	15300 7300 15300 6800
+Wire Wire Line
+	15300 6800 15400 6800
+Text Label 15300 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	16800 7300 16800 7200
+Text Label 16800 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 5000 1900 4500
+Wire Wire Line
+	1900 4500 2000 4500
+Text Label 1900 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 5000 3800 4500
+Wire Wire Line
+	3800 4500 3900 4500
+Text Label 3800 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 5000 3400 4900
+Text Label 3400 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 5000 5300 4900
+Text Label 5300 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 5000 5700 4500
+Wire Wire Line
+	5700 4500 5800 4500
+Text Label 5700 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 5000 7200 4900
+Text Label 7200 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 5000 7600 4500
+Wire Wire Line
+	7600 4500 7700 4500
+Text Label 7600 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 5000 9100 4900
+Text Label 9100 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 5000 9500 4500
+Wire Wire Line
+	9500 4500 9600 4500
+Text Label 9500 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	11000 5000 11000 4900
+Text Label 11000 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	11400 5000 11400 4500
+Wire Wire Line
+	11400 4500 11500 4500
+Text Label 11400 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	12900 5000 12900 4900
+Text Label 12900 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	13400 5000 13400 4500
+Wire Wire Line
+	13400 4500 13500 4500
+Text Label 13400 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	14900 5000 14900 4900
+Text Label 14900 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	15300 5000 15300 4500
+Wire Wire Line
+	15300 4500 15400 4500
+Text Label 15300 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	16800 5000 16800 4900
+Text Label 16800 5000 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 2700 1900 2200
+Wire Wire Line
+	1900 2200 2000 2200
+Text Label 1900 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 2700 3800 2200
+Wire Wire Line
+	3800 2200 3900 2200
+Text Label 3800 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 2700 3400 2600
+Text Label 3400 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 2700 5300 2600
+Text Label 5300 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	5700 2700 5700 2200
+Wire Wire Line
+	5700 2200 5800 2200
+Text Label 5700 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 2700 7200 2600
+Text Label 7200 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 2700 7600 2200
+Wire Wire Line
+	7600 2200 7700 2200
+Text Label 7600 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 2700 9100 2600
+Text Label 9100 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 2700 9500 2200
+Wire Wire Line
+	9500 2200 9600 2200
+Text Label 9500 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	11000 2700 11000 2600
+Text Label 11000 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	11400 2700 11400 2200
+Wire Wire Line
+	11400 2200 11500 2200
+Text Label 11400 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	12900 2700 12900 2600
+Text Label 12900 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	13400 2700 13400 2200
+Wire Wire Line
+	13400 2200 13500 2200
+Text Label 13400 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	14900 2700 14900 2600
+Text Label 14900 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	15300 2700 15300 2200
+Wire Wire Line
+	15300 2200 15400 2200
+Text Label 15300 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	16800 2700 16800 2600
+Text Label 16800 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 11100 5500 11100
+Wire Wire Line
+	5500 11100 5500 11200
+Wire Wire Line
+	5500 11200 5400 11200
+Wire Wire Line
+	5500 11200 5500 11300
+Wire Wire Line
+	5500 11100 5500 11000
+Wire Wire Line
+	5500 11000 5400 11000
+Wire Wire Line
+	5500 11000 5500 10900
+Wire Wire Line
+	5500 10900 5400 10900
+Wire Wire Line
+	5500 10900 5500 10800
+Wire Wire Line
+	5500 10800 5400 10800
+Connection ~ 5500 11200
+Connection ~ 5500 11100
+Connection ~ 5500 11000
+Connection ~ 5500 10900
+Text Label 5400 11100 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 11100 7300 11100
+Wire Wire Line
+	7300 11100 7300 11200
+Wire Wire Line
+	7300 11200 7200 11200
+Wire Wire Line
+	7300 11200 7300 11300
+Wire Wire Line
+	7300 11100 7300 11000
+Wire Wire Line
+	7300 11000 7200 11000
+Wire Wire Line
+	7300 11000 7300 10900
+Wire Wire Line
+	7300 10900 7200 10900
+Wire Wire Line
+	7300 10900 7300 10800
+Wire Wire Line
+	7300 10800 7200 10800
+Connection ~ 7300 11200
+Connection ~ 7300 11100
+Connection ~ 7300 11000
+Connection ~ 7300 10900
+Text Label 7200 11100 0    10   ~ 0
+GND
+Wire Wire Line
+	9000 11200 9100 11200
+Wire Wire Line
+	9100 11200 9100 11100
+Wire Wire Line
+	9100 11100 9000 11100
+Wire Wire Line
+	9100 11100 9100 11000
+Wire Wire Line
+	9100 11000 9000 11000
+Wire Wire Line
+	9100 11000 9100 10900
+Wire Wire Line
+	9100 10900 9000 10900
+Wire Wire Line
+	9100 10900 9100 10800
+Wire Wire Line
+	9100 10800 9000 10800
+Wire Wire Line
+	9100 11200 9100 11300
+Connection ~ 9100 11100
+Connection ~ 9100 11000
+Connection ~ 9100 10900
+Connection ~ 9100 11200
+Text Label 9000 11200 0    10   ~ 0
+GND
+Wire Wire Line
+	16500 9200 17100 9200
+Wire Wire Line
+	17100 9200 17100 7900
+Wire Wire Line
+	1600 7900 1600 6500
+Wire Wire Line
+	1600 6500 2000 6500
+Wire Wire Line
+	2000 6500 2000 5800
+Wire Wire Line
+	2000 5800 3800 5800
+Wire Wire Line
+	3800 6650 3900 6650
+Connection ~ 2000 6500
+Text Label 2100 5800 0    70   ~ 0
+DO8
+Wire Wire Line
+	2000 9050 1500 9050
+Text Label 1500 9050 0    70   ~ 0
+B_IN
+Wire Wire Line
+	4800 11100 4700 11100
+Wire Wire Line
+	4700 11100 4400 11100
+Wire Wire Line
+	4800 11200 4700 11200
+Wire Wire Line
+	4700 11200 4700 11100
+Connection ~ 4700 11100
+Text Label 4400 11100 0    70   ~ 0
+B_IN
+Wire Wire Line
+	6600 10800 6500 10800
+Wire Wire Line
+	6500 10800 6100 10800
+Wire Wire Line
+	6600 10900 6500 10900
+Wire Wire Line
+	6500 10900 6500 10800
+Connection ~ 6500 10800
+Text Label 6100 10800 0    70   ~ 0
+DATA_OUT
+Wire Wire Line
+	16500 2200 17700 2200
+Text Label 17200 2200 0    70   ~ 0
+DATA_OUT
+$Comp
+L led_pcb-eagle-import:WS2813 U1
+U 1 0 94FABF20
+P 2600 9100
+F 0 "U1" H 2100 9430 59  0000 L BNN
+F 1 "WS2813" H 2100 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 2600 9100 50  0001 C CNN
+F 3 "" H 2600 9100 50  0001 C CNN
+	1    2600 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY01
+U 1 0 F54A36B8
+P 3200 8400
+F 0 "#SUPPLY01" H 3200 8400 50  0001 C CNN
+F 1 "5V" H 3200 8510 59  0000 C BNN
+F 2 "" H 3200 8400 50  0001 C CNN
+F 3 "" H 3200 8400 50  0001 C CNN
+	1    3200 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U2
+U 1 0 4E0AB7A9
+P 4500 9100
+F 0 "U2" H 4000 9430 59  0000 L BNN
+F 1 "WS2813" H 4000 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 4500 9100 50  0001 C CNN
+F 3 "" H 4500 9100 50  0001 C CNN
+	1    4500 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY02
+U 1 0 19032892
+P 5100 8400
+F 0 "#SUPPLY02" H 5100 8400 50  0001 C CNN
+F 1 "5V" H 5100 8510 59  0000 C BNN
+F 2 "" H 5100 8400 50  0001 C CNN
+F 3 "" H 5100 8400 50  0001 C CNN
+	1    5100 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R1
+U 1 0 9ECAF246
+P 3400 8800
+F 0 "R1" H 3250 8859 59  0000 L BNN
+F 1 "0 OHM" H 3250 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 3400 8800 50  0001 C CNN
+F 3 "" H 3400 8800 50  0001 C CNN
+	1    3400 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R2
+U 1 0 4FF215FB
+P 5300 8800
+F 0 "R2" H 5150 8859 59  0000 L BNN
+F 1 "0 OHM" H 5150 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 5300 8800 50  0001 C CNN
+F 3 "" H 5300 8800 50  0001 C CNN
+	1    5300 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C1
+U 1 0 09ADF4B9
+P 3400 9400
+F 0 "C1" H 3440 9425 59  0000 L BNN
+F 1 "100nF" H 3440 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 3400 9400 50  0001 C CNN
+F 3 "" H 3400 9400 50  0001 C CNN
+	1    3400 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C2
+U 1 0 6D294609
+P 5300 9400
+F 0 "C2" H 5340 9425 59  0000 L BNN
+F 1 "100nF" H 5340 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 5300 9400 50  0001 C CNN
+F 3 "" H 5300 9400 50  0001 C CNN
+	1    5300 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U3
+U 1 0 C6A83FC2
+P 6400 9100
+F 0 "U3" H 5900 9430 59  0000 L BNN
+F 1 "WS2813" H 5900 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 6400 9100 50  0001 C CNN
+F 3 "" H 6400 9100 50  0001 C CNN
+	1    6400 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY03
+U 1 0 4F8E092B
+P 7000 8400
+F 0 "#SUPPLY03" H 7000 8400 50  0001 C CNN
+F 1 "5V" H 7000 8510 59  0000 C BNN
+F 2 "" H 7000 8400 50  0001 C CNN
+F 3 "" H 7000 8400 50  0001 C CNN
+	1    7000 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R3
+U 1 0 6AA61808
+P 7200 8800
+F 0 "R3" H 7050 8859 59  0000 L BNN
+F 1 "0 OHM" H 7050 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 7200 8800 50  0001 C CNN
+F 3 "" H 7200 8800 50  0001 C CNN
+	1    7200 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C3
+U 1 0 2D93CF11
+P 7200 9400
+F 0 "C3" H 7240 9425 59  0000 L BNN
+F 1 "100nF" H 7240 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 7200 9400 50  0001 C CNN
+F 3 "" H 7200 9400 50  0001 C CNN
+	1    7200 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U4
+U 1 0 AA9079E4
+P 8300 9100
+F 0 "U4" H 7800 9430 59  0000 L BNN
+F 1 "WS2813" H 7800 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 8300 9100 50  0001 C CNN
+F 3 "" H 8300 9100 50  0001 C CNN
+	1    8300 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY04
+U 1 0 1C9152C2
+P 8900 8400
+F 0 "#SUPPLY04" H 8900 8400 50  0001 C CNN
+F 1 "5V" H 8900 8510 59  0000 C BNN
+F 2 "" H 8900 8400 50  0001 C CNN
+F 3 "" H 8900 8400 50  0001 C CNN
+	1    8900 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R4
+U 1 0 703293D4
+P 9100 8800
+F 0 "R4" H 8950 8859 59  0000 L BNN
+F 1 "0 OHM" H 8950 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 9100 8800 50  0001 C CNN
+F 3 "" H 9100 8800 50  0001 C CNN
+	1    9100 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C4
+U 1 0 A60240AA
+P 9100 9400
+F 0 "C4" H 9140 9425 59  0000 L BNN
+F 1 "100nF" H 9140 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 9100 9400 50  0001 C CNN
+F 3 "" H 9100 9400 50  0001 C CNN
+	1    9100 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U5
+U 1 0 E3998434
+P 10200 9100
+F 0 "U5" H 9700 9430 59  0000 L BNN
+F 1 "WS2813" H 9700 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 10200 9100 50  0001 C CNN
+F 3 "" H 10200 9100 50  0001 C CNN
+	1    10200 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY05
+U 1 0 20B1DDDE
+P 10800 8400
+F 0 "#SUPPLY05" H 10800 8400 50  0001 C CNN
+F 1 "5V" H 10800 8510 59  0000 C BNN
+F 2 "" H 10800 8400 50  0001 C CNN
+F 3 "" H 10800 8400 50  0001 C CNN
+	1    10800 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R5
+U 1 0 00494119
+P 11000 8800
+F 0 "R5" H 10850 8859 59  0000 L BNN
+F 1 "0 OHM" H 10850 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 11000 8800 50  0001 C CNN
+F 3 "" H 11000 8800 50  0001 C CNN
+	1    11000 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C5
+U 1 0 8E04CE4C
+P 11000 9400
+F 0 "C5" H 11040 9425 59  0000 L BNN
+F 1 "100nF" H 11040 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 11000 9400 50  0001 C CNN
+F 3 "" H 11000 9400 50  0001 C CNN
+	1    11000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U6
+U 1 0 0551BDC9
+P 12100 9100
+F 0 "U6" H 11600 9430 59  0000 L BNN
+F 1 "WS2813" H 11600 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 12100 9100 50  0001 C CNN
+F 3 "" H 12100 9100 50  0001 C CNN
+	1    12100 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY06
+U 1 0 A7CD5EB6
+P 12700 8400
+F 0 "#SUPPLY06" H 12700 8400 50  0001 C CNN
+F 1 "5V" H 12700 8510 59  0000 C BNN
+F 2 "" H 12700 8400 50  0001 C CNN
+F 3 "" H 12700 8400 50  0001 C CNN
+	1    12700 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R6
+U 1 0 D14A2923
+P 12900 8800
+F 0 "R6" H 12750 8859 59  0000 L BNN
+F 1 "0 OHM" H 12750 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 12900 8800 50  0001 C CNN
+F 3 "" H 12900 8800 50  0001 C CNN
+	1    12900 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C6
+U 1 0 21A596BE
+P 12900 9400
+F 0 "C6" H 12940 9425 59  0000 L BNN
+F 1 "100nF" H 12940 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 12900 9400 50  0001 C CNN
+F 3 "" H 12900 9400 50  0001 C CNN
+	1    12900 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U7
+U 1 0 3F614461
+P 14100 9100
+F 0 "U7" H 13600 9430 59  0000 L BNN
+F 1 "WS2813" H 13600 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 14100 9100 50  0001 C CNN
+F 3 "" H 14100 9100 50  0001 C CNN
+	1    14100 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY07
+U 1 0 2907E397
+P 14700 8400
+F 0 "#SUPPLY07" H 14700 8400 50  0001 C CNN
+F 1 "5V" H 14700 8510 59  0000 C BNN
+F 2 "" H 14700 8400 50  0001 C CNN
+F 3 "" H 14700 8400 50  0001 C CNN
+	1    14700 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R7
+U 1 0 2CD7DF3D
+P 14900 8800
+F 0 "R7" H 14750 8859 59  0000 L BNN
+F 1 "0 OHM" H 14750 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 14900 8800 50  0001 C CNN
+F 3 "" H 14900 8800 50  0001 C CNN
+	1    14900 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C7
+U 1 0 64A99F0A
+P 14900 9400
+F 0 "C7" H 14940 9425 59  0000 L BNN
+F 1 "100nF" H 14940 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 14900 9400 50  0001 C CNN
+F 3 "" H 14900 9400 50  0001 C CNN
+	1    14900 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U8
+U 1 0 CE704963
+P 16000 9100
+F 0 "U8" H 15500 9430 59  0000 L BNN
+F 1 "WS2813" H 15500 8800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 16000 9100 50  0001 C CNN
+F 3 "" H 16000 9100 50  0001 C CNN
+	1    16000 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY08
+U 1 0 39566F8A
+P 16600 8400
+F 0 "#SUPPLY08" H 16600 8400 50  0001 C CNN
+F 1 "5V" H 16600 8510 59  0000 C BNN
+F 2 "" H 16600 8400 50  0001 C CNN
+F 3 "" H 16600 8400 50  0001 C CNN
+	1    16600 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R8
+U 1 0 F19A1C64
+P 16800 8800
+F 0 "R8" H 16650 8859 59  0000 L BNN
+F 1 "0 OHM" H 16650 8670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 16800 8800 50  0001 C CNN
+F 3 "" H 16800 8800 50  0001 C CNN
+	1    16800 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C8
+U 1 0 0213C79D
+P 16800 9400
+F 0 "C8" H 16840 9425 59  0000 L BNN
+F 1 "100nF" H 16840 9235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 16800 9400 50  0001 C CNN
+F 3 "" H 16800 9400 50  0001 C CNN
+	1    16800 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U9
+U 1 0 D56F332C
+P 2600 6700
+F 0 "U9" H 2100 7030 59  0000 L BNN
+F 1 "WS2813" H 2100 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 2600 6700 50  0001 C CNN
+F 3 "" H 2600 6700 50  0001 C CNN
+	1    2600 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY09
+U 1 0 B8640D54
+P 3200 6000
+F 0 "#SUPPLY09" H 3200 6000 50  0001 C CNN
+F 1 "5V" H 3200 6110 59  0000 C BNN
+F 2 "" H 3200 6000 50  0001 C CNN
+F 3 "" H 3200 6000 50  0001 C CNN
+	1    3200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U10
+U 1 0 44D3FC8D
+P 4500 6700
+F 0 "U10" H 4000 7030 59  0000 L BNN
+F 1 "WS2813" H 4000 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 4500 6700 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY010
+U 1 0 28999800
+P 5100 6000
+F 0 "#SUPPLY010" H 5100 6000 50  0001 C CNN
+F 1 "5V" H 5100 6110 59  0000 C BNN
+F 2 "" H 5100 6000 50  0001 C CNN
+F 3 "" H 5100 6000 50  0001 C CNN
+	1    5100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R9
+U 1 0 E3F2C7B3
+P 3400 6400
+F 0 "R9" H 3250 6459 59  0000 L BNN
+F 1 "0 OHM" H 3250 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 3400 6400 50  0001 C CNN
+F 3 "" H 3400 6400 50  0001 C CNN
+	1    3400 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R10
+U 1 0 01BFD858
+P 5300 6400
+F 0 "R10" H 5150 6459 59  0000 L BNN
+F 1 "0 OHM" H 5150 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 5300 6400 50  0001 C CNN
+F 3 "" H 5300 6400 50  0001 C CNN
+	1    5300 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C9
+U 1 0 501DA122
+P 3400 7000
+F 0 "C9" H 3440 7025 59  0000 L BNN
+F 1 "100nF" H 3440 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 3400 7000 50  0001 C CNN
+F 3 "" H 3400 7000 50  0001 C CNN
+	1    3400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C10
+U 1 0 CB1F8FE5
+P 5300 7000
+F 0 "C10" H 5340 7025 59  0000 L BNN
+F 1 "100nF" H 5340 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 5300 7000 50  0001 C CNN
+F 3 "" H 5300 7000 50  0001 C CNN
+	1    5300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U11
+U 1 0 6BED38E3
+P 6400 6700
+F 0 "U11" H 5900 7030 59  0000 L BNN
+F 1 "WS2813" H 5900 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 6400 6700 50  0001 C CNN
+F 3 "" H 6400 6700 50  0001 C CNN
+	1    6400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY011
+U 1 0 E0B04C0E
+P 7000 6000
+F 0 "#SUPPLY011" H 7000 6000 50  0001 C CNN
+F 1 "5V" H 7000 6110 59  0000 C BNN
+F 2 "" H 7000 6000 50  0001 C CNN
+F 3 "" H 7000 6000 50  0001 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R11
+U 1 0 F791A8A5
+P 7200 6400
+F 0 "R11" H 7050 6459 59  0000 L BNN
+F 1 "0 OHM" H 7050 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 7200 6400 50  0001 C CNN
+F 3 "" H 7200 6400 50  0001 C CNN
+	1    7200 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C11
+U 1 0 F1735AC7
+P 7200 7000
+F 0 "C11" H 7240 7025 59  0000 L BNN
+F 1 "100nF" H 7240 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 7200 7000 50  0001 C CNN
+F 3 "" H 7200 7000 50  0001 C CNN
+	1    7200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U12
+U 1 0 6D2AEAA6
+P 8300 6700
+F 0 "U12" H 7800 7030 59  0000 L BNN
+F 1 "WS2813" H 7800 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 8300 6700 50  0001 C CNN
+F 3 "" H 8300 6700 50  0001 C CNN
+	1    8300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY012
+U 1 0 31C2C8A5
+P 8900 6000
+F 0 "#SUPPLY012" H 8900 6000 50  0001 C CNN
+F 1 "5V" H 8900 6110 59  0000 C BNN
+F 2 "" H 8900 6000 50  0001 C CNN
+F 3 "" H 8900 6000 50  0001 C CNN
+	1    8900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R12
+U 1 0 38CFB3EE
+P 9100 6400
+F 0 "R12" H 8950 6459 59  0000 L BNN
+F 1 "0 OHM" H 8950 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 9100 6400 50  0001 C CNN
+F 3 "" H 9100 6400 50  0001 C CNN
+	1    9100 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C12
+U 1 0 E4AAF141
+P 9100 7000
+F 0 "C12" H 9140 7025 59  0000 L BNN
+F 1 "100nF" H 9140 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 9100 7000 50  0001 C CNN
+F 3 "" H 9100 7000 50  0001 C CNN
+	1    9100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U13
+U 1 0 B7180DA0
+P 10200 6700
+F 0 "U13" H 9700 7030 59  0000 L BNN
+F 1 "WS2813" H 9700 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 10200 6700 50  0001 C CNN
+F 3 "" H 10200 6700 50  0001 C CNN
+	1    10200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY013
+U 1 0 8D803956
+P 10800 6000
+F 0 "#SUPPLY013" H 10800 6000 50  0001 C CNN
+F 1 "5V" H 10800 6110 59  0000 C BNN
+F 2 "" H 10800 6000 50  0001 C CNN
+F 3 "" H 10800 6000 50  0001 C CNN
+	1    10800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R13
+U 1 0 9788ECDC
+P 11000 6400
+F 0 "R13" H 10850 6459 59  0000 L BNN
+F 1 "0 OHM" H 10850 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 11000 6400 50  0001 C CNN
+F 3 "" H 11000 6400 50  0001 C CNN
+	1    11000 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C13
+U 1 0 CC542157
+P 11000 7000
+F 0 "C13" H 11040 7025 59  0000 L BNN
+F 1 "100nF" H 11040 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 11000 7000 50  0001 C CNN
+F 3 "" H 11000 7000 50  0001 C CNN
+	1    11000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U14
+U 1 0 F6F52858
+P 12100 6700
+F 0 "U14" H 11600 7030 59  0000 L BNN
+F 1 "WS2813" H 11600 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 12100 6700 50  0001 C CNN
+F 3 "" H 12100 6700 50  0001 C CNN
+	1    12100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY014
+U 1 0 C4643C99
+P 12700 6000
+F 0 "#SUPPLY014" H 12700 6000 50  0001 C CNN
+F 1 "5V" H 12700 6110 59  0000 C BNN
+F 2 "" H 12700 6000 50  0001 C CNN
+F 3 "" H 12700 6000 50  0001 C CNN
+	1    12700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R14
+U 1 0 98180FF8
+P 12900 6400
+F 0 "R14" H 12750 6459 59  0000 L BNN
+F 1 "0 OHM" H 12750 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 12900 6400 50  0001 C CNN
+F 3 "" H 12900 6400 50  0001 C CNN
+	1    12900 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C14
+U 1 0 B051AF67
+P 12900 7000
+F 0 "C14" H 12940 7025 59  0000 L BNN
+F 1 "100nF" H 12940 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 12900 7000 50  0001 C CNN
+F 3 "" H 12900 7000 50  0001 C CNN
+	1    12900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U15
+U 1 0 836AD4BB
+P 14100 6700
+F 0 "U15" H 13600 7030 59  0000 L BNN
+F 1 "WS2813" H 13600 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 14100 6700 50  0001 C CNN
+F 3 "" H 14100 6700 50  0001 C CNN
+	1    14100 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY015
+U 1 0 2739B52F
+P 14700 6000
+F 0 "#SUPPLY015" H 14700 6000 50  0001 C CNN
+F 1 "5V" H 14700 6110 59  0000 C BNN
+F 2 "" H 14700 6000 50  0001 C CNN
+F 3 "" H 14700 6000 50  0001 C CNN
+	1    14700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R15
+U 1 0 2C0D743A
+P 14900 6400
+F 0 "R15" H 14750 6459 59  0000 L BNN
+F 1 "0 OHM" H 14750 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 14900 6400 50  0001 C CNN
+F 3 "" H 14900 6400 50  0001 C CNN
+	1    14900 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C15
+U 1 0 63AFA939
+P 14900 7000
+F 0 "C15" H 14940 7025 59  0000 L BNN
+F 1 "100nF" H 14940 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 14900 7000 50  0001 C CNN
+F 3 "" H 14900 7000 50  0001 C CNN
+	1    14900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U16
+U 1 0 A8FA17CD
+P 16000 6700
+F 0 "U16" H 15500 7030 59  0000 L BNN
+F 1 "WS2813" H 15500 6400 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 16000 6700 50  0001 C CNN
+F 3 "" H 16000 6700 50  0001 C CNN
+	1    16000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY016
+U 1 0 86F85EE9
+P 16600 6000
+F 0 "#SUPPLY016" H 16600 6000 50  0001 C CNN
+F 1 "5V" H 16600 6110 59  0000 C BNN
+F 2 "" H 16600 6000 50  0001 C CNN
+F 3 "" H 16600 6000 50  0001 C CNN
+	1    16600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R16
+U 1 0 577D8B62
+P 16800 6400
+F 0 "R16" H 16650 6459 59  0000 L BNN
+F 1 "0 OHM" H 16650 6270 59  0000 L BNN
+F 2 "led_pcb:M0805" H 16800 6400 50  0001 C CNN
+F 3 "" H 16800 6400 50  0001 C CNN
+	1    16800 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C16
+U 1 0 F81D02D9
+P 16800 7000
+F 0 "C16" H 16840 7025 59  0000 L BNN
+F 1 "100nF" H 16840 6835 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 16800 7000 50  0001 C CNN
+F 3 "" H 16800 7000 50  0001 C CNN
+	1    16800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U17
+U 1 0 3DB02967
+P 2600 4400
+F 0 "U17" H 2100 4730 59  0000 L BNN
+F 1 "WS2813" H 2100 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 2600 4400 50  0001 C CNN
+F 3 "" H 2600 4400 50  0001 C CNN
+	1    2600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY017
+U 1 0 26B7FE90
+P 3200 3700
+F 0 "#SUPPLY017" H 3200 3700 50  0001 C CNN
+F 1 "5V" H 3200 3810 59  0000 C BNN
+F 2 "" H 3200 3700 50  0001 C CNN
+F 3 "" H 3200 3700 50  0001 C CNN
+	1    3200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U18
+U 1 0 84ABBA4D
+P 4500 4400
+F 0 "U18" H 4000 4730 59  0000 L BNN
+F 1 "WS2813" H 4000 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 4500 4400 50  0001 C CNN
+F 3 "" H 4500 4400 50  0001 C CNN
+	1    4500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY018
+U 1 0 C00D883A
+P 5100 3700
+F 0 "#SUPPLY018" H 5100 3700 50  0001 C CNN
+F 1 "5V" H 5100 3810 59  0000 C BNN
+F 2 "" H 5100 3700 50  0001 C CNN
+F 3 "" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R17
+U 1 0 6D324E61
+P 3400 4100
+F 0 "R17" H 3250 4159 59  0000 L BNN
+F 1 "0 OHM" H 3250 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 3400 4100 50  0001 C CNN
+F 3 "" H 3400 4100 50  0001 C CNN
+	1    3400 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R18
+U 1 0 FC23448A
+P 5300 4100
+F 0 "R18" H 5150 4159 59  0000 L BNN
+F 1 "0 OHM" H 5150 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 5300 4100 50  0001 C CNN
+F 3 "" H 5300 4100 50  0001 C CNN
+	1    5300 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C17
+U 1 0 E31E5A6A
+P 3400 4700
+F 0 "C17" H 3440 4725 59  0000 L BNN
+F 1 "100nF" H 3440 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 3400 4700 50  0001 C CNN
+F 3 "" H 3400 4700 50  0001 C CNN
+	1    3400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C18
+U 1 0 38A0304A
+P 5300 4700
+F 0 "C18" H 5340 4725 59  0000 L BNN
+F 1 "100nF" H 5340 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 5300 4700 50  0001 C CNN
+F 3 "" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U19
+U 1 0 596302D7
+P 6400 4400
+F 0 "U19" H 5900 4730 59  0000 L BNN
+F 1 "WS2813" H 5900 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 6400 4400 50  0001 C CNN
+F 3 "" H 6400 4400 50  0001 C CNN
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY019
+U 1 0 9765D681
+P 7000 3700
+F 0 "#SUPPLY019" H 7000 3700 50  0001 C CNN
+F 1 "5V" H 7000 3810 59  0000 C BNN
+F 2 "" H 7000 3700 50  0001 C CNN
+F 3 "" H 7000 3700 50  0001 C CNN
+	1    7000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R19
+U 1 0 B54FB821
+P 7200 4100
+F 0 "R19" H 7050 4159 59  0000 L BNN
+F 1 "0 OHM" H 7050 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 7200 4100 50  0001 C CNN
+F 3 "" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C19
+U 1 0 93FC45DF
+P 7200 4700
+F 0 "C19" H 7240 4725 59  0000 L BNN
+F 1 "100nF" H 7240 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 7200 4700 50  0001 C CNN
+F 3 "" H 7200 4700 50  0001 C CNN
+	1    7200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U20
+U 1 0 4AD49080
+P 8300 4400
+F 0 "U20" H 7800 4730 59  0000 L BNN
+F 1 "WS2813" H 7800 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 8300 4400 50  0001 C CNN
+F 3 "" H 8300 4400 50  0001 C CNN
+	1    8300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY020
+U 1 0 74256EE2
+P 8900 3700
+F 0 "#SUPPLY020" H 8900 3700 50  0001 C CNN
+F 1 "5V" H 8900 3810 59  0000 C BNN
+F 2 "" H 8900 3700 50  0001 C CNN
+F 3 "" H 8900 3700 50  0001 C CNN
+	1    8900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R20
+U 1 0 AB77C3C4
+P 9100 4100
+F 0 "R20" H 8950 4159 59  0000 L BNN
+F 1 "0 OHM" H 8950 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 9100 4100 50  0001 C CNN
+F 3 "" H 9100 4100 50  0001 C CNN
+	1    9100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C20
+U 1 0 D1510C23
+P 9100 4700
+F 0 "C20" H 9140 4725 59  0000 L BNN
+F 1 "100nF" H 9140 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 9100 4700 50  0001 C CNN
+F 3 "" H 9100 4700 50  0001 C CNN
+	1    9100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U21
+U 1 0 A18DBA62
+P 10200 4400
+F 0 "U21" H 9700 4730 59  0000 L BNN
+F 1 "WS2813" H 9700 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 10200 4400 50  0001 C CNN
+F 3 "" H 10200 4400 50  0001 C CNN
+	1    10200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY021
+U 1 0 5F7BB948
+P 10800 3700
+F 0 "#SUPPLY021" H 10800 3700 50  0001 C CNN
+F 1 "5V" H 10800 3810 59  0000 C BNN
+F 2 "" H 10800 3700 50  0001 C CNN
+F 3 "" H 10800 3700 50  0001 C CNN
+	1    10800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R21
+U 1 0 CCD2C51D
+P 11000 4100
+F 0 "R21" H 10850 4159 59  0000 L BNN
+F 1 "0 OHM" H 10850 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 11000 4100 50  0001 C CNN
+F 3 "" H 11000 4100 50  0001 C CNN
+	1    11000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C21
+U 1 0 8D646345
+P 11000 4700
+F 0 "C21" H 11040 4725 59  0000 L BNN
+F 1 "100nF" H 11040 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 11000 4700 50  0001 C CNN
+F 3 "" H 11000 4700 50  0001 C CNN
+	1    11000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U22
+U 1 0 DBC1E9B6
+P 12100 4400
+F 0 "U22" H 11600 4730 59  0000 L BNN
+F 1 "WS2813" H 11600 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 12100 4400 50  0001 C CNN
+F 3 "" H 12100 4400 50  0001 C CNN
+	1    12100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY022
+U 1 0 15C4ECC7
+P 12700 3700
+F 0 "#SUPPLY022" H 12700 3700 50  0001 C CNN
+F 1 "5V" H 12700 3810 59  0000 C BNN
+F 2 "" H 12700 3700 50  0001 C CNN
+F 3 "" H 12700 3700 50  0001 C CNN
+	1    12700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R22
+U 1 0 665AAFA5
+P 12900 4100
+F 0 "R22" H 12750 4159 59  0000 L BNN
+F 1 "0 OHM" H 12750 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 12900 4100 50  0001 C CNN
+F 3 "" H 12900 4100 50  0001 C CNN
+	1    12900 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C22
+U 1 0 A05C1986
+P 12900 4700
+F 0 "C22" H 12940 4725 59  0000 L BNN
+F 1 "100nF" H 12940 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 12900 4700 50  0001 C CNN
+F 3 "" H 12900 4700 50  0001 C CNN
+	1    12900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U23
+U 1 0 63F53A2D
+P 14100 4400
+F 0 "U23" H 13600 4730 59  0000 L BNN
+F 1 "WS2813" H 13600 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 14100 4400 50  0001 C CNN
+F 3 "" H 14100 4400 50  0001 C CNN
+	1    14100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY023
+U 1 0 F460BE83
+P 14700 3700
+F 0 "#SUPPLY023" H 14700 3700 50  0001 C CNN
+F 1 "5V" H 14700 3810 59  0000 C BNN
+F 2 "" H 14700 3700 50  0001 C CNN
+F 3 "" H 14700 3700 50  0001 C CNN
+	1    14700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R23
+U 1 0 983729BC
+P 14900 4100
+F 0 "R23" H 14750 4159 59  0000 L BNN
+F 1 "0 OHM" H 14750 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 14900 4100 50  0001 C CNN
+F 3 "" H 14900 4100 50  0001 C CNN
+	1    14900 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C23
+U 1 0 93AA069D
+P 14900 4700
+F 0 "C23" H 14940 4725 59  0000 L BNN
+F 1 "100nF" H 14940 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 14900 4700 50  0001 C CNN
+F 3 "" H 14900 4700 50  0001 C CNN
+	1    14900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U24
+U 1 0 B0DEE33C
+P 16000 4400
+F 0 "U24" H 15500 4730 59  0000 L BNN
+F 1 "WS2813" H 15500 4100 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 16000 4400 50  0001 C CNN
+F 3 "" H 16000 4400 50  0001 C CNN
+	1    16000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY024
+U 1 0 29BDD468
+P 16600 3700
+F 0 "#SUPPLY024" H 16600 3700 50  0001 C CNN
+F 1 "5V" H 16600 3810 59  0000 C BNN
+F 2 "" H 16600 3700 50  0001 C CNN
+F 3 "" H 16600 3700 50  0001 C CNN
+	1    16600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R24
+U 1 0 B00ECAF2
+P 16800 4100
+F 0 "R24" H 16650 4159 59  0000 L BNN
+F 1 "0 OHM" H 16650 3970 59  0000 L BNN
+F 2 "led_pcb:M0805" H 16800 4100 50  0001 C CNN
+F 3 "" H 16800 4100 50  0001 C CNN
+	1    16800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C24
+U 1 0 7752927D
+P 16800 4700
+F 0 "C24" H 16840 4725 59  0000 L BNN
+F 1 "100nF" H 16840 4535 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 16800 4700 50  0001 C CNN
+F 3 "" H 16800 4700 50  0001 C CNN
+	1    16800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U25
+U 1 0 A4A7A47C
+P 2600 2100
+F 0 "U25" H 2100 2430 59  0000 L BNN
+F 1 "WS2813" H 2100 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 2600 2100 50  0001 C CNN
+F 3 "" H 2600 2100 50  0001 C CNN
+	1    2600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY025
+U 1 0 517FCEE6
+P 3200 1400
+F 0 "#SUPPLY025" H 3200 1400 50  0001 C CNN
+F 1 "5V" H 3200 1510 59  0000 C BNN
+F 2 "" H 3200 1400 50  0001 C CNN
+F 3 "" H 3200 1400 50  0001 C CNN
+	1    3200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U26
+U 1 0 7EA9AC01
+P 4500 2100
+F 0 "U26" H 4000 2430 59  0000 L BNN
+F 1 "WS2813" H 4000 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 4500 2100 50  0001 C CNN
+F 3 "" H 4500 2100 50  0001 C CNN
+	1    4500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY026
+U 1 0 CB2EE093
+P 5100 1400
+F 0 "#SUPPLY026" H 5100 1400 50  0001 C CNN
+F 1 "5V" H 5100 1510 59  0000 C BNN
+F 2 "" H 5100 1400 50  0001 C CNN
+F 3 "" H 5100 1400 50  0001 C CNN
+	1    5100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R25
+U 1 0 0B23E178
+P 3400 1800
+F 0 "R25" H 3250 1859 59  0000 L BNN
+F 1 "0 OHM" H 3250 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 3400 1800 50  0001 C CNN
+F 3 "" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R26
+U 1 0 99BBA628
+P 5300 1800
+F 0 "R26" H 5150 1859 59  0000 L BNN
+F 1 "0 OHM" H 5150 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 5300 1800 50  0001 C CNN
+F 3 "" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C25
+U 1 0 5F5D481B
+P 3400 2400
+F 0 "C25" H 3440 2425 59  0000 L BNN
+F 1 "100nF" H 3440 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 3400 2400 50  0001 C CNN
+F 3 "" H 3400 2400 50  0001 C CNN
+	1    3400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C26
+U 1 0 0EABB629
+P 5300 2400
+F 0 "C26" H 5340 2425 59  0000 L BNN
+F 1 "100nF" H 5340 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 5300 2400 50  0001 C CNN
+F 3 "" H 5300 2400 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U27
+U 1 0 73B12CA8
+P 6400 2100
+F 0 "U27" H 5900 2430 59  0000 L BNN
+F 1 "WS2813" H 5900 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 6400 2100 50  0001 C CNN
+F 3 "" H 6400 2100 50  0001 C CNN
+	1    6400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY027
+U 1 0 19AA1EB1
+P 7000 1400
+F 0 "#SUPPLY027" H 7000 1400 50  0001 C CNN
+F 1 "5V" H 7000 1510 59  0000 C BNN
+F 2 "" H 7000 1400 50  0001 C CNN
+F 3 "" H 7000 1400 50  0001 C CNN
+	1    7000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R27
+U 1 0 95814E93
+P 7200 1800
+F 0 "R27" H 7050 1859 59  0000 L BNN
+F 1 "0 OHM" H 7050 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 7200 1800 50  0001 C CNN
+F 3 "" H 7200 1800 50  0001 C CNN
+	1    7200 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C27
+U 1 0 C9504634
+P 7200 2400
+F 0 "C27" H 7240 2425 59  0000 L BNN
+F 1 "100nF" H 7240 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 7200 2400 50  0001 C CNN
+F 3 "" H 7200 2400 50  0001 C CNN
+	1    7200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U28
+U 1 0 B9E884C3
+P 8300 2100
+F 0 "U28" H 7800 2430 59  0000 L BNN
+F 1 "WS2813" H 7800 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 8300 2100 50  0001 C CNN
+F 3 "" H 8300 2100 50  0001 C CNN
+	1    8300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY028
+U 1 0 390F8B27
+P 8900 1400
+F 0 "#SUPPLY028" H 8900 1400 50  0001 C CNN
+F 1 "5V" H 8900 1510 59  0000 C BNN
+F 2 "" H 8900 1400 50  0001 C CNN
+F 3 "" H 8900 1400 50  0001 C CNN
+	1    8900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R28
+U 1 0 6937E1B8
+P 9100 1800
+F 0 "R28" H 8950 1859 59  0000 L BNN
+F 1 "0 OHM" H 8950 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 9100 1800 50  0001 C CNN
+F 3 "" H 9100 1800 50  0001 C CNN
+	1    9100 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C28
+U 1 0 AB97CB13
+P 9100 2400
+F 0 "C28" H 9140 2425 59  0000 L BNN
+F 1 "100nF" H 9140 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 9100 2400 50  0001 C CNN
+F 3 "" H 9100 2400 50  0001 C CNN
+	1    9100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U29
+U 1 0 2831BF36
+P 10200 2100
+F 0 "U29" H 9700 2430 59  0000 L BNN
+F 1 "WS2813" H 9700 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 10200 2100 50  0001 C CNN
+F 3 "" H 10200 2100 50  0001 C CNN
+	1    10200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY029
+U 1 0 D637372C
+P 10800 1400
+F 0 "#SUPPLY029" H 10800 1400 50  0001 C CNN
+F 1 "5V" H 10800 1510 59  0000 C BNN
+F 2 "" H 10800 1400 50  0001 C CNN
+F 3 "" H 10800 1400 50  0001 C CNN
+	1    10800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R29
+U 1 0 03B2AE16
+P 11000 1800
+F 0 "R29" H 10850 1859 59  0000 L BNN
+F 1 "0 OHM" H 10850 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 11000 1800 50  0001 C CNN
+F 3 "" H 11000 1800 50  0001 C CNN
+	1    11000 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C29
+U 1 0 BCAFF6B0
+P 11000 2400
+F 0 "C29" H 11040 2425 59  0000 L BNN
+F 1 "100nF" H 11040 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 11000 2400 50  0001 C CNN
+F 3 "" H 11000 2400 50  0001 C CNN
+	1    11000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U30
+U 1 0 B32F630A
+P 12100 2100
+F 0 "U30" H 11600 2430 59  0000 L BNN
+F 1 "WS2813" H 11600 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 12100 2100 50  0001 C CNN
+F 3 "" H 12100 2100 50  0001 C CNN
+	1    12100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY030
+U 1 0 065DB38D
+P 12700 1400
+F 0 "#SUPPLY030" H 12700 1400 50  0001 C CNN
+F 1 "5V" H 12700 1510 59  0000 C BNN
+F 2 "" H 12700 1400 50  0001 C CNN
+F 3 "" H 12700 1400 50  0001 C CNN
+	1    12700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R30
+U 1 0 6E9FAF32
+P 12900 1800
+F 0 "R30" H 12750 1859 59  0000 L BNN
+F 1 "0 OHM" H 12750 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 12900 1800 50  0001 C CNN
+F 3 "" H 12900 1800 50  0001 C CNN
+	1    12900 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C30
+U 1 0 107458DA
+P 12900 2400
+F 0 "C30" H 12940 2425 59  0000 L BNN
+F 1 "100nF" H 12940 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 12900 2400 50  0001 C CNN
+F 3 "" H 12900 2400 50  0001 C CNN
+	1    12900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U31
+U 1 0 BADD0555
+P 14100 2100
+F 0 "U31" H 13600 2430 59  0000 L BNN
+F 1 "WS2813" H 13600 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 14100 2100 50  0001 C CNN
+F 3 "" H 14100 2100 50  0001 C CNN
+	1    14100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY031
+U 1 0 668EE308
+P 14700 1400
+F 0 "#SUPPLY031" H 14700 1400 50  0001 C CNN
+F 1 "5V" H 14700 1510 59  0000 C BNN
+F 2 "" H 14700 1400 50  0001 C CNN
+F 3 "" H 14700 1400 50  0001 C CNN
+	1    14700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R31
+U 1 0 5510D7FE
+P 14900 1800
+F 0 "R31" H 14750 1859 59  0000 L BNN
+F 1 "0 OHM" H 14750 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 14900 1800 50  0001 C CNN
+F 3 "" H 14900 1800 50  0001 C CNN
+	1    14900 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C31
+U 1 0 07ACE071
+P 14900 2400
+F 0 "C31" H 14940 2425 59  0000 L BNN
+F 1 "100nF" H 14940 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 14900 2400 50  0001 C CNN
+F 3 "" H 14900 2400 50  0001 C CNN
+	1    14900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:WS2813 U32
+U 1 0 4F07784C
+P 16000 2100
+F 0 "U32" H 15500 2430 59  0000 L BNN
+F 1 "WS2813" H 15500 1800 59  0000 L BNN
+F 2 "led_pcb:WS2813" H 16000 2100 50  0001 C CNN
+F 3 "" H 16000 2100 50  0001 C CNN
+	1    16000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY032
+U 1 0 ED223F71
+P 16600 1400
+F 0 "#SUPPLY032" H 16600 1400 50  0001 C CNN
+F 1 "5V" H 16600 1510 59  0000 C BNN
+F 2 "" H 16600 1400 50  0001 C CNN
+F 3 "" H 16600 1400 50  0001 C CNN
+	1    16600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:R-US_M0805 R32
+U 1 0 6AC772C7
+P 16800 1800
+F 0 "R32" H 16650 1859 59  0000 L BNN
+F 1 "0 OHM" H 16650 1670 59  0000 L BNN
+F 2 "led_pcb:M0805" H 16800 1800 50  0001 C CNN
+F 3 "" H 16800 1800 50  0001 C CNN
+	1    16800 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L led_pcb-eagle-import:C-USC0805K C32
+U 1 0 F6BA9C03
+P 16800 2400
+F 0 "C32" H 16840 2425 59  0000 L BNN
+F 1 "100nF" H 16840 2235 59  0000 L BNN
+F 2 "led_pcb:C0805K" H 16800 2400 50  0001 C CNN
+F 3 "" H 16800 2400 50  0001 C CNN
+	1    16800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:CONN_05X2SHD_SMD J1
+U 1 0 CFAA64E8
+P 5100 11000
+F 0 "J1" H 4950 11320 70  0000 L BNN
+F 1 "INPUT" H 4950 10610 70  0000 L BNN
+F 2 "led_pcb:2X5-SHROUDED_SMD" H 5100 11000 50  0001 C CNN
+F 3 "" H 5100 11000 50  0001 C CNN
+	1    5100 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:CONN_05X2SHD_SMD J2
+U 1 0 EBD203E0
+P 6900 11000
+F 0 "J2" H 6750 11320 70  0000 L BNN
+F 1 "OUTPUT" H 6750 10610 70  0000 L BNN
+F 2 "led_pcb:2X5-SHROUDED_SMD" H 6900 11000 50  0001 C CNN
+F 3 "" H 6900 11000 50  0001 C CNN
+	1    6900 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:CONN_05X2SHD_SMD J3
+U 1 0 ACFF788F
+P 8700 11000
+F 0 "J3" H 8550 11320 70  0000 L BNN
+F 1 "POWER" H 8550 10610 70  0000 L BNN
+F 2 "led_pcb:2X5-SHROUDED_SMD" H 8700 11000 50  0001 C CNN
+F 3 "" H 8700 11000 50  0001 C CNN
+	1    8700 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:FRAME-LEDGER #FRAME1
+U 1 0 CC96BE83
+P 1000 11700
+F 0 "#FRAME1" H 1000 11700 50  0001 C CNN
+F 1 "FRAME-LEDGER" H 1000 11700 50  0001 C CNN
+F 2 "" H 1000 11700 50  0001 C CNN
+F 3 "" H 1000 11700 50  0001 C CNN
+	1    1000 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:FRAME-LEDGER #FRAME1
+U 2 0 CC96BE8F
+P 14000 11700
+F 0 "#FRAME1" H 14000 11700 50  0001 C CNN
+F 1 "FRAME-LEDGER" H 14000 11700 50  0001 C CNN
+F 2 "" H 14000 11700 50  0001 C CNN
+F 3 "" H 14000 11700 50  0001 C CNN
+	2    14000 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:5V #SUPPLY033
+U 1 0 C39E5E7F
+P 8300 10600
+F 0 "#SUPPLY033" H 8300 10600 50  0001 C CNN
+F 1 "5V" H 8300 10710 59  0000 C BNN
+F 2 "" H 8300 10600 50  0001 C CNN
+F 3 "" H 8300 10600 50  0001 C CNN
+	1    8300 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND01
+U 1 0 8DA2BB24
+P 5500 11400
+F 0 "#GND01" H 5500 11400 50  0001 C CNN
+F 1 "GND" H 5500 11330 59  0000 C TNN
+F 2 "" H 5500 11400 50  0001 C CNN
+F 3 "" H 5500 11400 50  0001 C CNN
+	1    5500 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND02
+U 1 0 4877C9E2
+P 7300 11400
+F 0 "#GND02" H 7300 11400 50  0001 C CNN
+F 1 "GND" H 7300 11330 59  0000 C TNN
+F 2 "" H 7300 11400 50  0001 C CNN
+F 3 "" H 7300 11400 50  0001 C CNN
+	1    7300 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND03
+U 1 0 21137572
+P 9100 11400
+F 0 "#GND03" H 9100 11400 50  0001 C CNN
+F 1 "GND" H 9100 11330 59  0000 C TNN
+F 2 "" H 9100 11400 50  0001 C CNN
+F 3 "" H 9100 11400 50  0001 C CNN
+	1    9100 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND04
+U 1 0 12C122FD
+P 1900 9800
+F 0 "#GND04" H 1900 9800 50  0001 C CNN
+F 1 "GND" H 1900 9730 59  0000 C TNN
+F 2 "" H 1900 9800 50  0001 C CNN
+F 3 "" H 1900 9800 50  0001 C CNN
+	1    1900 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND05
+U 1 0 5B6A58CA
+P 3800 9800
+F 0 "#GND05" H 3800 9800 50  0001 C CNN
+F 1 "GND" H 3800 9730 59  0000 C TNN
+F 2 "" H 3800 9800 50  0001 C CNN
+F 3 "" H 3800 9800 50  0001 C CNN
+	1    3800 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND06
+U 1 0 F6847280
+P 3400 9800
+F 0 "#GND06" H 3400 9800 50  0001 C CNN
+F 1 "GND" H 3400 9730 59  0000 C TNN
+F 2 "" H 3400 9800 50  0001 C CNN
+F 3 "" H 3400 9800 50  0001 C CNN
+	1    3400 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND07
+U 1 0 C2693486
+P 5300 9800
+F 0 "#GND07" H 5300 9800 50  0001 C CNN
+F 1 "GND" H 5300 9730 59  0000 C TNN
+F 2 "" H 5300 9800 50  0001 C CNN
+F 3 "" H 5300 9800 50  0001 C CNN
+	1    5300 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND08
+U 1 0 E3161DBF
+P 5700 9800
+F 0 "#GND08" H 5700 9800 50  0001 C CNN
+F 1 "GND" H 5700 9730 59  0000 C TNN
+F 2 "" H 5700 9800 50  0001 C CNN
+F 3 "" H 5700 9800 50  0001 C CNN
+	1    5700 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND09
+U 1 0 FD0A31A1
+P 7200 9800
+F 0 "#GND09" H 7200 9800 50  0001 C CNN
+F 1 "GND" H 7200 9730 59  0000 C TNN
+F 2 "" H 7200 9800 50  0001 C CNN
+F 3 "" H 7200 9800 50  0001 C CNN
+	1    7200 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND010
+U 1 0 0087CD10
+P 7600 9800
+F 0 "#GND010" H 7600 9800 50  0001 C CNN
+F 1 "GND" H 7600 9730 59  0000 C TNN
+F 2 "" H 7600 9800 50  0001 C CNN
+F 3 "" H 7600 9800 50  0001 C CNN
+	1    7600 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND011
+U 1 0 5518330F
+P 9100 9800
+F 0 "#GND011" H 9100 9800 50  0001 C CNN
+F 1 "GND" H 9100 9730 59  0000 C TNN
+F 2 "" H 9100 9800 50  0001 C CNN
+F 3 "" H 9100 9800 50  0001 C CNN
+	1    9100 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND012
+U 1 0 8C4C494A
+P 9500 9800
+F 0 "#GND012" H 9500 9800 50  0001 C CNN
+F 1 "GND" H 9500 9730 59  0000 C TNN
+F 2 "" H 9500 9800 50  0001 C CNN
+F 3 "" H 9500 9800 50  0001 C CNN
+	1    9500 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND013
+U 1 0 85B66688
+P 11000 9800
+F 0 "#GND013" H 11000 9800 50  0001 C CNN
+F 1 "GND" H 11000 9730 59  0000 C TNN
+F 2 "" H 11000 9800 50  0001 C CNN
+F 3 "" H 11000 9800 50  0001 C CNN
+	1    11000 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND014
+U 1 0 B9C9B342
+P 11400 9800
+F 0 "#GND014" H 11400 9800 50  0001 C CNN
+F 1 "GND" H 11400 9730 59  0000 C TNN
+F 2 "" H 11400 9800 50  0001 C CNN
+F 3 "" H 11400 9800 50  0001 C CNN
+	1    11400 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND015
+U 1 0 7499CEA7
+P 12900 9800
+F 0 "#GND015" H 12900 9800 50  0001 C CNN
+F 1 "GND" H 12900 9730 59  0000 C TNN
+F 2 "" H 12900 9800 50  0001 C CNN
+F 3 "" H 12900 9800 50  0001 C CNN
+	1    12900 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND016
+U 1 0 12C6E2A1
+P 13400 9800
+F 0 "#GND016" H 13400 9800 50  0001 C CNN
+F 1 "GND" H 13400 9730 59  0000 C TNN
+F 2 "" H 13400 9800 50  0001 C CNN
+F 3 "" H 13400 9800 50  0001 C CNN
+	1    13400 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND017
+U 1 0 CBB20165
+P 14900 9800
+F 0 "#GND017" H 14900 9800 50  0001 C CNN
+F 1 "GND" H 14900 9730 59  0000 C TNN
+F 2 "" H 14900 9800 50  0001 C CNN
+F 3 "" H 14900 9800 50  0001 C CNN
+	1    14900 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND018
+U 1 0 195191A6
+P 15300 9800
+F 0 "#GND018" H 15300 9800 50  0001 C CNN
+F 1 "GND" H 15300 9730 59  0000 C TNN
+F 2 "" H 15300 9800 50  0001 C CNN
+F 3 "" H 15300 9800 50  0001 C CNN
+	1    15300 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND019
+U 1 0 F278BC0E
+P 16800 9800
+F 0 "#GND019" H 16800 9800 50  0001 C CNN
+F 1 "GND" H 16800 9730 59  0000 C TNN
+F 2 "" H 16800 9800 50  0001 C CNN
+F 3 "" H 16800 9800 50  0001 C CNN
+	1    16800 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND020
+U 1 0 E53A484A
+P 1900 7400
+F 0 "#GND020" H 1900 7400 50  0001 C CNN
+F 1 "GND" H 1900 7330 59  0000 C TNN
+F 2 "" H 1900 7400 50  0001 C CNN
+F 3 "" H 1900 7400 50  0001 C CNN
+	1    1900 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND021
+U 1 0 FF2A2D77
+P 3800 7400
+F 0 "#GND021" H 3800 7400 50  0001 C CNN
+F 1 "GND" H 3800 7330 59  0000 C TNN
+F 2 "" H 3800 7400 50  0001 C CNN
+F 3 "" H 3800 7400 50  0001 C CNN
+	1    3800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND022
+U 1 0 A44C21B7
+P 3400 7400
+F 0 "#GND022" H 3400 7400 50  0001 C CNN
+F 1 "GND" H 3400 7330 59  0000 C TNN
+F 2 "" H 3400 7400 50  0001 C CNN
+F 3 "" H 3400 7400 50  0001 C CNN
+	1    3400 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND023
+U 1 0 D027D65F
+P 5300 7400
+F 0 "#GND023" H 5300 7400 50  0001 C CNN
+F 1 "GND" H 5300 7330 59  0000 C TNN
+F 2 "" H 5300 7400 50  0001 C CNN
+F 3 "" H 5300 7400 50  0001 C CNN
+	1    5300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND024
+U 1 0 157BD418
+P 5700 7400
+F 0 "#GND024" H 5700 7400 50  0001 C CNN
+F 1 "GND" H 5700 7330 59  0000 C TNN
+F 2 "" H 5700 7400 50  0001 C CNN
+F 3 "" H 5700 7400 50  0001 C CNN
+	1    5700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND025
+U 1 0 F212C7DE
+P 7200 7400
+F 0 "#GND025" H 7200 7400 50  0001 C CNN
+F 1 "GND" H 7200 7330 59  0000 C TNN
+F 2 "" H 7200 7400 50  0001 C CNN
+F 3 "" H 7200 7400 50  0001 C CNN
+	1    7200 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND026
+U 1 0 3890F70B
+P 7600 7400
+F 0 "#GND026" H 7600 7400 50  0001 C CNN
+F 1 "GND" H 7600 7330 59  0000 C TNN
+F 2 "" H 7600 7400 50  0001 C CNN
+F 3 "" H 7600 7400 50  0001 C CNN
+	1    7600 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND027
+U 1 0 F8638A93
+P 9100 7400
+F 0 "#GND027" H 9100 7400 50  0001 C CNN
+F 1 "GND" H 9100 7330 59  0000 C TNN
+F 2 "" H 9100 7400 50  0001 C CNN
+F 3 "" H 9100 7400 50  0001 C CNN
+	1    9100 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND028
+U 1 0 D1DF28FE
+P 9500 7400
+F 0 "#GND028" H 9500 7400 50  0001 C CNN
+F 1 "GND" H 9500 7330 59  0000 C TNN
+F 2 "" H 9500 7400 50  0001 C CNN
+F 3 "" H 9500 7400 50  0001 C CNN
+	1    9500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND029
+U 1 0 B0E7A0AF
+P 11000 7400
+F 0 "#GND029" H 11000 7400 50  0001 C CNN
+F 1 "GND" H 11000 7330 59  0000 C TNN
+F 2 "" H 11000 7400 50  0001 C CNN
+F 3 "" H 11000 7400 50  0001 C CNN
+	1    11000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND030
+U 1 0 A606055F
+P 11400 7400
+F 0 "#GND030" H 11400 7400 50  0001 C CNN
+F 1 "GND" H 11400 7330 59  0000 C TNN
+F 2 "" H 11400 7400 50  0001 C CNN
+F 3 "" H 11400 7400 50  0001 C CNN
+	1    11400 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND031
+U 1 0 01958B23
+P 12900 7400
+F 0 "#GND031" H 12900 7400 50  0001 C CNN
+F 1 "GND" H 12900 7330 59  0000 C TNN
+F 2 "" H 12900 7400 50  0001 C CNN
+F 3 "" H 12900 7400 50  0001 C CNN
+	1    12900 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND032
+U 1 0 FD501343
+P 13400 7400
+F 0 "#GND032" H 13400 7400 50  0001 C CNN
+F 1 "GND" H 13400 7330 59  0000 C TNN
+F 2 "" H 13400 7400 50  0001 C CNN
+F 3 "" H 13400 7400 50  0001 C CNN
+	1    13400 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND034
+U 1 0 85A992D2
+P 14900 7400
+F 0 "#GND034" H 14900 7400 50  0001 C CNN
+F 1 "GND" H 14900 7330 59  0000 C TNN
+F 2 "" H 14900 7400 50  0001 C CNN
+F 3 "" H 14900 7400 50  0001 C CNN
+	1    14900 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND035
+U 1 0 A522C48C
+P 15300 7400
+F 0 "#GND035" H 15300 7400 50  0001 C CNN
+F 1 "GND" H 15300 7330 59  0000 C TNN
+F 2 "" H 15300 7400 50  0001 C CNN
+F 3 "" H 15300 7400 50  0001 C CNN
+	1    15300 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND036
+U 1 0 CF583ECA
+P 16800 7400
+F 0 "#GND036" H 16800 7400 50  0001 C CNN
+F 1 "GND" H 16800 7330 59  0000 C TNN
+F 2 "" H 16800 7400 50  0001 C CNN
+F 3 "" H 16800 7400 50  0001 C CNN
+	1    16800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND033
+U 1 0 C5585B8D
+P 1900 5100
+F 0 "#GND033" H 1900 5100 50  0001 C CNN
+F 1 "GND" H 1900 5030 59  0000 C TNN
+F 2 "" H 1900 5100 50  0001 C CNN
+F 3 "" H 1900 5100 50  0001 C CNN
+	1    1900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND037
+U 1 0 A56E8B01
+P 3800 5100
+F 0 "#GND037" H 3800 5100 50  0001 C CNN
+F 1 "GND" H 3800 5030 59  0000 C TNN
+F 2 "" H 3800 5100 50  0001 C CNN
+F 3 "" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND038
+U 1 0 35D5721E
+P 3400 5100
+F 0 "#GND038" H 3400 5100 50  0001 C CNN
+F 1 "GND" H 3400 5030 59  0000 C TNN
+F 2 "" H 3400 5100 50  0001 C CNN
+F 3 "" H 3400 5100 50  0001 C CNN
+	1    3400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND039
+U 1 0 76CA36D4
+P 5300 5100
+F 0 "#GND039" H 5300 5100 50  0001 C CNN
+F 1 "GND" H 5300 5030 59  0000 C TNN
+F 2 "" H 5300 5100 50  0001 C CNN
+F 3 "" H 5300 5100 50  0001 C CNN
+	1    5300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND040
+U 1 0 2B74A96F
+P 5700 5100
+F 0 "#GND040" H 5700 5100 50  0001 C CNN
+F 1 "GND" H 5700 5030 59  0000 C TNN
+F 2 "" H 5700 5100 50  0001 C CNN
+F 3 "" H 5700 5100 50  0001 C CNN
+	1    5700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND041
+U 1 0 057C4BD5
+P 7200 5100
+F 0 "#GND041" H 7200 5100 50  0001 C CNN
+F 1 "GND" H 7200 5030 59  0000 C TNN
+F 2 "" H 7200 5100 50  0001 C CNN
+F 3 "" H 7200 5100 50  0001 C CNN
+	1    7200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND042
+U 1 0 6D21A43A
+P 7600 5100
+F 0 "#GND042" H 7600 5100 50  0001 C CNN
+F 1 "GND" H 7600 5030 59  0000 C TNN
+F 2 "" H 7600 5100 50  0001 C CNN
+F 3 "" H 7600 5100 50  0001 C CNN
+	1    7600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND043
+U 1 0 7A046983
+P 9100 5100
+F 0 "#GND043" H 9100 5100 50  0001 C CNN
+F 1 "GND" H 9100 5030 59  0000 C TNN
+F 2 "" H 9100 5100 50  0001 C CNN
+F 3 "" H 9100 5100 50  0001 C CNN
+	1    9100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND044
+U 1 0 87F2849F
+P 9500 5100
+F 0 "#GND044" H 9500 5100 50  0001 C CNN
+F 1 "GND" H 9500 5030 59  0000 C TNN
+F 2 "" H 9500 5100 50  0001 C CNN
+F 3 "" H 9500 5100 50  0001 C CNN
+	1    9500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND045
+U 1 0 5123C17D
+P 11000 5100
+F 0 "#GND045" H 11000 5100 50  0001 C CNN
+F 1 "GND" H 11000 5030 59  0000 C TNN
+F 2 "" H 11000 5100 50  0001 C CNN
+F 3 "" H 11000 5100 50  0001 C CNN
+	1    11000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND046
+U 1 0 6BBB6AA2
+P 11400 5100
+F 0 "#GND046" H 11400 5100 50  0001 C CNN
+F 1 "GND" H 11400 5030 59  0000 C TNN
+F 2 "" H 11400 5100 50  0001 C CNN
+F 3 "" H 11400 5100 50  0001 C CNN
+	1    11400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND047
+U 1 0 E3D3C258
+P 12900 5100
+F 0 "#GND047" H 12900 5100 50  0001 C CNN
+F 1 "GND" H 12900 5030 59  0000 C TNN
+F 2 "" H 12900 5100 50  0001 C CNN
+F 3 "" H 12900 5100 50  0001 C CNN
+	1    12900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND048
+U 1 0 A043859C
+P 13400 5100
+F 0 "#GND048" H 13400 5100 50  0001 C CNN
+F 1 "GND" H 13400 5030 59  0000 C TNN
+F 2 "" H 13400 5100 50  0001 C CNN
+F 3 "" H 13400 5100 50  0001 C CNN
+	1    13400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND049
+U 1 0 3E396B75
+P 14900 5100
+F 0 "#GND049" H 14900 5100 50  0001 C CNN
+F 1 "GND" H 14900 5030 59  0000 C TNN
+F 2 "" H 14900 5100 50  0001 C CNN
+F 3 "" H 14900 5100 50  0001 C CNN
+	1    14900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND050
+U 1 0 47931690
+P 15300 5100
+F 0 "#GND050" H 15300 5100 50  0001 C CNN
+F 1 "GND" H 15300 5030 59  0000 C TNN
+F 2 "" H 15300 5100 50  0001 C CNN
+F 3 "" H 15300 5100 50  0001 C CNN
+	1    15300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND051
+U 1 0 2CF0FB45
+P 16800 5100
+F 0 "#GND051" H 16800 5100 50  0001 C CNN
+F 1 "GND" H 16800 5030 59  0000 C TNN
+F 2 "" H 16800 5100 50  0001 C CNN
+F 3 "" H 16800 5100 50  0001 C CNN
+	1    16800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND052
+U 1 0 6E5BE941
+P 1900 2800
+F 0 "#GND052" H 1900 2800 50  0001 C CNN
+F 1 "GND" H 1900 2730 59  0000 C TNN
+F 2 "" H 1900 2800 50  0001 C CNN
+F 3 "" H 1900 2800 50  0001 C CNN
+	1    1900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND053
+U 1 0 F36FBA54
+P 3800 2800
+F 0 "#GND053" H 3800 2800 50  0001 C CNN
+F 1 "GND" H 3800 2730 59  0000 C TNN
+F 2 "" H 3800 2800 50  0001 C CNN
+F 3 "" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND054
+U 1 0 72D39712
+P 3400 2800
+F 0 "#GND054" H 3400 2800 50  0001 C CNN
+F 1 "GND" H 3400 2730 59  0000 C TNN
+F 2 "" H 3400 2800 50  0001 C CNN
+F 3 "" H 3400 2800 50  0001 C CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND055
+U 1 0 740EDAAB
+P 5300 2800
+F 0 "#GND055" H 5300 2800 50  0001 C CNN
+F 1 "GND" H 5300 2730 59  0000 C TNN
+F 2 "" H 5300 2800 50  0001 C CNN
+F 3 "" H 5300 2800 50  0001 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND056
+U 1 0 895B064A
+P 5700 2800
+F 0 "#GND056" H 5700 2800 50  0001 C CNN
+F 1 "GND" H 5700 2730 59  0000 C TNN
+F 2 "" H 5700 2800 50  0001 C CNN
+F 3 "" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND057
+U 1 0 304CF269
+P 7200 2800
+F 0 "#GND057" H 7200 2800 50  0001 C CNN
+F 1 "GND" H 7200 2730 59  0000 C TNN
+F 2 "" H 7200 2800 50  0001 C CNN
+F 3 "" H 7200 2800 50  0001 C CNN
+	1    7200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND058
+U 1 0 E30E6F28
+P 7600 2800
+F 0 "#GND058" H 7600 2800 50  0001 C CNN
+F 1 "GND" H 7600 2730 59  0000 C TNN
+F 2 "" H 7600 2800 50  0001 C CNN
+F 3 "" H 7600 2800 50  0001 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND059
+U 1 0 ACBC2CBC
+P 9100 2800
+F 0 "#GND059" H 9100 2800 50  0001 C CNN
+F 1 "GND" H 9100 2730 59  0000 C TNN
+F 2 "" H 9100 2800 50  0001 C CNN
+F 3 "" H 9100 2800 50  0001 C CNN
+	1    9100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND060
+U 1 0 CF9E7117
+P 9500 2800
+F 0 "#GND060" H 9500 2800 50  0001 C CNN
+F 1 "GND" H 9500 2730 59  0000 C TNN
+F 2 "" H 9500 2800 50  0001 C CNN
+F 3 "" H 9500 2800 50  0001 C CNN
+	1    9500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND061
+U 1 0 4ECAD228
+P 11000 2800
+F 0 "#GND061" H 11000 2800 50  0001 C CNN
+F 1 "GND" H 11000 2730 59  0000 C TNN
+F 2 "" H 11000 2800 50  0001 C CNN
+F 3 "" H 11000 2800 50  0001 C CNN
+	1    11000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND062
+U 1 0 4410D087
+P 11400 2800
+F 0 "#GND062" H 11400 2800 50  0001 C CNN
+F 1 "GND" H 11400 2730 59  0000 C TNN
+F 2 "" H 11400 2800 50  0001 C CNN
+F 3 "" H 11400 2800 50  0001 C CNN
+	1    11400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND063
+U 1 0 B66ACBFF
+P 12900 2800
+F 0 "#GND063" H 12900 2800 50  0001 C CNN
+F 1 "GND" H 12900 2730 59  0000 C TNN
+F 2 "" H 12900 2800 50  0001 C CNN
+F 3 "" H 12900 2800 50  0001 C CNN
+	1    12900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND064
+U 1 0 0C1F0895
+P 13400 2800
+F 0 "#GND064" H 13400 2800 50  0001 C CNN
+F 1 "GND" H 13400 2730 59  0000 C TNN
+F 2 "" H 13400 2800 50  0001 C CNN
+F 3 "" H 13400 2800 50  0001 C CNN
+	1    13400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND065
+U 1 0 DC4DDF45
+P 14900 2800
+F 0 "#GND065" H 14900 2800 50  0001 C CNN
+F 1 "GND" H 14900 2730 59  0000 C TNN
+F 2 "" H 14900 2800 50  0001 C CNN
+F 3 "" H 14900 2800 50  0001 C CNN
+	1    14900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND066
+U 1 0 DD6D0F79
+P 15300 2800
+F 0 "#GND066" H 15300 2800 50  0001 C CNN
+F 1 "GND" H 15300 2730 59  0000 C TNN
+F 2 "" H 15300 2800 50  0001 C CNN
+F 3 "" H 15300 2800 50  0001 C CNN
+	1    15300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L led_pcb-eagle-import:GND #GND067
+U 1 0 5E95BCCF
+P 16800 2800
+F 0 "#GND067" H 16800 2800 50  0001 C CNN
+F 1 "GND" H 16800 2730 59  0000 C TNN
+F 2 "" H 16800 2800 50  0001 C CNN
+F 3 "" H 16800 2800 50  0001 C CNN
+	1    16800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 8900 2000 8900
+Wire Wire Line
+	3800 8200 3800 9050
+Wire Wire Line
+	5700 8200 5700 9050
+Wire Wire Line
+	9500 8200 9500 9050
+Wire Wire Line
+	13400 5800 13400 6650
+Wire Wire Line
+	15300 5800 15300 6650
+Wire Wire Line
+	1700 5600 15400 5600
+Wire Wire Line
+	1700 4350 1700 5600
+Wire Wire Line
+	5700 3500 5700 4350
+Wire Wire Line
+	7600 3500 7600 4350
+Wire Wire Line
+	7700 3500 9500 3500
+Wire Wire Line
+	9500 3500 9500 4350
+Wire Wire Line
+	11400 3500 11400 4350
+Wire Wire Line
+	11500 3500 13400 3500
+Wire Wire Line
+	13400 3500 13400 4350
+Wire Wire Line
+	15300 3500 15300 4350
+Wire Wire Line
+	15400 3300 15400 4200
+Wire Wire Line
+	1700 3300 15400 3300
+Wire Wire Line
+	5700 1200 5700 2050
+Wire Wire Line
+	7600 1200 7600 2050
+Wire Wire Line
+	9500 1200 9500 2050
+Wire Wire Line
+	11400 1200 11400 2050
+Wire Wire Line
+	15300 1200 15300 2050
+Wire Wire Line
+	6100 11100 6500 11100
+Wire Wire Line
+	1600 4200 1600 5500
+Wire Wire Line
+	2000 3500 3800 3500
+Wire Wire Line
+	3800 3500 3800 4350
+Wire Wire Line
+	3800 1200 3800 2050
+Wire Wire Line
+	1600 7900 17100 7900
+Wire Wire Line
+	3800 5800 3800 6650
+$EndSCHEMATC

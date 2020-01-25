@@ -1,0 +1,250 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kala:RTL8723BS_MOD U3
+U 1 1 5E296712
+P 3200 2200
+F 0 "U3" H 3200 2250 50  0000 L CNN
+F 1 "RTL8723BS_MOD" H 4800 150 50  0000 L CNN
+F 2 "Kala_PCB_v1:LQFP-44_12x12mm_P0.5mm" H 3250 2250 50  0001 C CNN
+F 3 "" H 3250 2250 50  0001 C CNN
+	1    3200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4300 3900 5500
+Wire Wire Line
+	3900 5500 3850 5500
+Wire Wire Line
+	4000 5600 3850 5600
+$Comp
+L kala:+VCC_3V3 #PWR?
+U 1 1 61482543
+P 4700 4350
+F 0 "#PWR?" H 4700 4200 50  0001 C CNN
+F 1 "+VCC_3V3" H 4715 4523 50  0000 C CNN
+F 2 "" H 4700 4350 50  0001 C CNN
+F 3 "" H 4700 4350 50  0001 C CNN
+	1    4700 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 4350 4700 4300
+Wire Wire Line
+	4500 4300 4500 4650
+$Comp
+L power:GND #PWR?
+U 1 1 6148372E
+P 4500 4650
+F 0 "#PWR?" H 4500 4400 50  0001 C CNN
+F 1 "GND" H 4505 4477 50  0000 C CNN
+F 2 "" H 4500 4650 50  0001 C CNN
+F 3 "" H 4500 4650 50  0001 C CNN
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2900 3000 2900
+Wire Wire Line
+	3100 2700 3000 2700
+Wire Wire Line
+	3000 2700 3000 2900
+Connection ~ 3000 2900
+Wire Wire Line
+	3000 2900 2400 2900
+$Comp
+L power:GND #PWR?
+U 1 1 61487905
+P 2400 2900
+F 0 "#PWR?" H 2400 2650 50  0001 C CNN
+F 1 "GND" V 2405 2772 50  0000 R CNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2400 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 2100 4500 2050
+$Comp
+L power:GND #PWR?
+U 1 1 6148874A
+P 4500 2050
+F 0 "#PWR?" H 4500 1800 50  0001 C CNN
+F 1 "GND" H 4505 1877 50  0000 C CNN
+F 2 "" H 4500 2050 50  0001 C CNN
+F 3 "" H 4500 2050 50  0001 C CNN
+	1    4500 2050
+	-1   0    0    1   
+$EndComp
+Text HLabel 3850 5500 0    50   Input ~ 0
+SDC_D2
+Text HLabel 3850 5600 0    50   Input ~ 0
+SDC_D3
+Wire Wire Line
+	4000 4300 4000 5600
+Wire Wire Line
+	4100 5700 3850 5700
+Wire Wire Line
+	4100 4300 4100 5700
+Wire Wire Line
+	4200 5800 3850 5800
+Wire Wire Line
+	4200 4300 4200 5800
+Wire Wire Line
+	4300 5900 3850 5900
+Wire Wire Line
+	4300 4300 4300 5900
+Wire Wire Line
+	4400 6000 3850 6000
+Wire Wire Line
+	4400 4300 4400 6000
+Text HLabel 3850 5800 0    50   Input ~ 0
+SDC_CLK
+Text HLabel 3850 5900 0    50   Input ~ 0
+SDC_D0
+Text HLabel 3850 6000 0    50   Input ~ 0
+SDC_D1
+Text HLabel 3850 5700 0    50   Input ~ 0
+SDC_CMD
+Wire Wire Line
+	5300 2700 5400 2700
+Wire Wire Line
+	5400 2700 5400 2900
+Wire Wire Line
+	5400 2900 5300 2900
+Wire Wire Line
+	5400 2900 5550 2900
+Connection ~ 5400 2900
+$Comp
+L power:GND #PWR?
+U 1 1 6148D703
+P 5550 2900
+F 0 "#PWR?" H 5550 2650 50  0001 C CNN
+F 1 "GND" H 5555 2727 50  0000 C CNN
+F 2 "" H 5550 2900 50  0001 C CNN
+F 3 "" H 5550 2900 50  0001 C CNN
+	1    5550 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 2100 3700 1800
+Wire Wire Line
+	3700 1800 3650 1800
+Text HLabel 3650 1800 0    50   Input ~ 0
+BT_UART_CTS
+Text HLabel 3650 1700 0    50   Input ~ 0
+BT_UART_RX
+Text HLabel 3650 1600 0    50   Input ~ 0
+BT_UART_TX
+Wire Wire Line
+	3800 2100 3800 1700
+Wire Wire Line
+	3800 1700 3650 1700
+Wire Wire Line
+	3900 2100 3900 1600
+Wire Wire Line
+	3900 1600 3650 1600
+NoConn ~ 5300 3200
+NoConn ~ 5300 3300
+NoConn ~ 5300 3400
+NoConn ~ 5300 3500
+Wire Wire Line
+	3100 3300 2850 3300
+Wire Wire Line
+	3100 3200 2850 3200
+Text HLabel 2850 3200 0    50   Input ~ 0
+BT_WAKE
+Text HLabel 2850 3300 0    50   Input ~ 0
+BT_IRQ
+$Comp
+L kala:+VCC_3V3 #PWR?
+U 1 1 61494409
+P 3050 3500
+F 0 "#PWR?" H 3050 3350 50  0001 C CNN
+F 1 "+VCC_3V3" V 3050 3800 50  0000 C CNN
+F 2 "" H 3050 3500 50  0001 C CNN
+F 3 "" H 3050 3500 50  0001 C CNN
+	1    3050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 3500 3050 3500
+Wire Wire Line
+	3800 4300 3800 4900
+Text HLabel 3700 4900 0    50   Input ~ 0
+WLAN_IRQ
+$Comp
+L Device:Antenna AE?
+U 1 1 614966DF
+P 2700 2500
+F 0 "AE?" H 2780 2489 50  0000 L CNN
+F 1 "Antenna" H 2780 2398 50  0000 L CNN
+F 2 "" H 2700 2500 50  0001 C CNN
+F 3 "~" H 2700 2500 50  0001 C CNN
+	1    2700 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2800 2700 2800
+Wire Wire Line
+	2700 2800 2700 2700
+Text HLabel 3600 4800 0    50   Input ~ 0
+WLAN_DSI_N
+Wire Wire Line
+	3600 4800 3700 4800
+Wire Wire Line
+	3700 4800 3700 4600
+Wire Wire Line
+	3800 4900 3700 4900
+NoConn ~ 5300 3600
+$Comp
+L Device:R_US R?
+U 1 1 6149CF3C
+P 2800 4400
+F 0 "R?" H 2868 4446 50  0000 L CNN
+F 1 "10K" H 2868 4355 50  0000 L CNN
+F 2 "" V 2840 4390 50  0001 C CNN
+F 3 "~" H 2800 4400 50  0001 C CNN
+	1    2800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kala:+VCC_3V3 #PWR?
+U 1 1 6149F963
+P 2800 4150
+F 0 "#PWR?" H 2800 4000 50  0001 C CNN
+F 1 "+VCC_3V3" H 2815 4323 50  0000 C CNN
+F 2 "" H 2800 4150 50  0001 C CNN
+F 3 "" H 2800 4150 50  0001 C CNN
+	1    2800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4250 2800 4150
+Wire Wire Line
+	2800 4550 2800 4600
+Wire Wire Line
+	2800 4600 3700 4600
+Connection ~ 3700 4600
+Wire Wire Line
+	3700 4600 3700 4300
+Text HLabel 4750 2050 2    50   Input ~ 0
+BT_RST_N
+Wire Wire Line
+	4700 2100 4700 2050
+Wire Wire Line
+	4700 2050 4750 2050
+$EndSCHEMATC
