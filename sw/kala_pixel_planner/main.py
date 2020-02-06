@@ -10,17 +10,6 @@ from pixel import PixelScene
 def handle_button_press():
     print("Button clicked, Hello!")
 
-class MouseEventFilter(QtCore.QObject):
-    
-    def eventFilter(self, obj, event):
-                     
-        if event.type() is event.MouseButtonPress:
-            print("Ate mouse press", event.pos())
-            event.accept()
-            return True
-        else:
-            # standard event processing
-            return QtCore.QObject.eventFilter(self, obj, event)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
@@ -33,13 +22,13 @@ if __name__ == "__main__":
     ui_file.close()
 
     # Load pixels as QGraphicsScene objects
-    for i in range(1, 257):
+    for i in range(0, 256):
         try:
-            x = int((i-1)/16)
-            y = (i-1) % 16
+            x = int(i/16)
+            y = (i % 16)
 
             px = window.findChild(QtWidgets.QGraphicsView, "graphicsView_" + str(i))
-            px_scene = PixelScene(x, y, QtGui.QColor(255, 255, 255, 255))
+            px_scene = PixelScene(i, x, y, QtGui.QColor(255, 255, 255, 255))
             px_scene.setParent(window)
             px.setScene(px_scene)
 
@@ -54,8 +43,6 @@ if __name__ == "__main__":
     play_button.clicked.connect(handle_button_press)
 
     window.setWindowTitle("Kala Pixel Planner")
-    #mouse_filter = MouseEventFilter()
-    #window.installEventFilter(mouse_filter)
     window.show()
 
     sys.exit(app.exec_())

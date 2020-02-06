@@ -4,8 +4,9 @@ import random
 
 class PixelScene(QGraphicsScene):
 
-    def __init__(self, x, y, color):
+    def __init__(self, num, x, y, color):
         QGraphicsScene.__init__(self)
+        self.num = num
         self.x = x
         self.y = y
         self.color = color
@@ -13,7 +14,7 @@ class PixelScene(QGraphicsScene):
 
     def __str__(self):
         c = self.backgroundBrush().color()
-        return f"Pixel ({self.x}, {self.y}) - R:{c.red()} G:{c.green()} B:{c.blue()}"
+        return f"Pixel #{self.num} ({self.x}, {self.y}) - R:{c.red()} G:{c.green()} B:{c.blue()}"
 
     def set_color(self, color):
         self.color = color
