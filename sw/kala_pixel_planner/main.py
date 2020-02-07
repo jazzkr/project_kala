@@ -52,6 +52,24 @@ def handle_blue_edit():
     new_color = QtGui.QColor(color.red(), color.green(), int(blue_field.text()), 255)
     set_pixel_color(x, y, new_color)
 
+def load_pixel_frame(pf):
+    for i in range(0, 256):
+        x = int(i/16)
+        y = (i % 16)
+
+        color = QtGui.QColor(pf.red[i], pf.green[i], pf.blue[i], 255)
+        set_pixel_color(x, y, color)
+    
+    # Reset x,y & RGB values
+    label = window.findChild(QtWidgets.QLabel, "xy_label")
+    label.setText("(none)")
+    red_field = window.findChild(QtWidgets.QLineEdit, "red_field")
+    red_field.setText("")
+    green_field = window.findChild(QtWidgets.QLineEdit, "green_field")
+    red_field.setText("")
+    blue_field = window.findChild(QtWidgets.QLineEdit, "blue_field")
+    red_field.setText("")
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
 
