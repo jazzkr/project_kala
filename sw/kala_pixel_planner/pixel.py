@@ -26,9 +26,14 @@ class PixelScene(QGraphicsScene):
         
         r_field = self.parent().findChild(QtWidgets.QLineEdit, "red_field")
         r_field.setText(str(c.red()))
+
         g_field = self.parent().findChild(QtWidgets.QLineEdit, "green_field")
         g_field.setText(str(c.green()))
+
         b_field = self.parent().findChild(QtWidgets.QLineEdit, "blue_field")
         b_field.setText(str(c.blue()))
+
+        label = self.parent().findChild(QtWidgets.QLabel, "xy_label")
+        label.setText(f"({self.x}, {self.y})")
 
         QGraphicsScene.mousePressEvent(self, event)
