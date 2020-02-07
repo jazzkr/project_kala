@@ -66,9 +66,9 @@ def load_pixel_frame(pf):
     red_field = window.findChild(QtWidgets.QLineEdit, "red_field")
     red_field.setText("")
     green_field = window.findChild(QtWidgets.QLineEdit, "green_field")
-    red_field.setText("")
+    green_field.setText("")
     blue_field = window.findChild(QtWidgets.QLineEdit, "blue_field")
-    red_field.setText("")
+    blue_field.setText("")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
@@ -91,8 +91,6 @@ if __name__ == "__main__":
             px_scene.setParent(window)
             px.setScene(px_scene)
 
-            #pixels[x][y] = px_scene
-            print("Setting x, y: ", x, y)
         except Exception as e:
             print(f"Failed to set pixel at {i}")
             print(e)
