@@ -12,7 +12,7 @@ class PixelFrame:
             self.green.append(255)
             self.blue.append(255)
         
-        self.frames = 1
+        self.duration = 24
     
     def __str__(self):
         ret = ""

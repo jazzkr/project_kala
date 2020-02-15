@@ -1,16 +1,47 @@
 
+from pixel_frame import PixelFrame
+
 class PixelAnimation:
 
     def __init__(self):
         self.frames = []
-        self.duration = 0
+        self.total_duration = 0
+        self.add_frame(PixelFrame())
+        self.current_frame = 0
     
     def add_frame(self, pf):
         self.frames.append(pf)
-        self.duration += pf.frames
+        self.total_duration += pf.duration
+    
+    def delete_frame(self, pf):
+        self.frames.remove(pf)
+        self.total_duration -= pf.duration
+    
+    def get_current_frame(self):
+        return self.frames[self.current_frame]
+    
+    def get_next_frame(self):
+        if len(self.frames) > (self.current_frame + 1):
+            self.current_frame += 1
+            return self.frames[self.current_frame]
+        else:
+            return None
+    
+    def get_prev_frame(self):
+        if (self.current_frame - 1) >= 0:
+            self.current_frame -= 1
+            return self.frames[self.current_frame]
+        else:
+            return None
+
+    def get_frame_by_index(self, index):
+        if len(self.frames) > index:
+            return self.frames[index]
+        else:
+            return None
 
     def save_to_file(self):
         pass
 
-    def load_to_file(self):
+    def load_from_file(self):
         pass
