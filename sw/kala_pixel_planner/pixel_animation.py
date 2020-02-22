@@ -1,4 +1,5 @@
 
+import json
 from pixel_frame import PixelFrame
 
 class PixelAnimation:
@@ -39,9 +40,22 @@ class PixelAnimation:
             return self.frames[index]
         else:
             return None
+    
+    def to_dict(self):
+        px_anim = {}
+        for i in range(0, len(self.frames)):
+            px_anim[i] = self.frames[i].to_dict()
+        
+        return px_anim
 
-    def save_to_file(self):
-        pass
+    def save_to_file(self, filename):
+        data = self.to_dict()
+        with open(filename, "w+") as f:
+            json.dump(data, f)
 
-    def load_from_file(self):
-        pass
+    def load_from_file(self, filename):
+        with open(filename, "r+") as f:
+            data = json.load(f)
+        
+        print(data)
+

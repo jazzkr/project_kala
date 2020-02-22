@@ -28,3 +28,12 @@ class PixelFrame:
         self.red[i] = r
         self.green[i] = g
         self.blue[i] = b
+    
+    def to_dict(self):
+        px_frame = {}
+
+        for i in range(0, 256):
+            px = {"r": self.red[i], "g": self.green[i], "b": self.blue[i]}
+            px_frame[i] = px
+
+        return px_frame

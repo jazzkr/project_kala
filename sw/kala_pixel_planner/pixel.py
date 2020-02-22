@@ -1,6 +1,6 @@
 from PySide2.QtWidgets import QGraphicsScene
 from PySide2 import QtGui, QtWidgets
-import random
+import json, random
 
 class PixelScene(QGraphicsScene):
 
@@ -15,6 +15,16 @@ class PixelScene(QGraphicsScene):
     def __str__(self):
         c = self.backgroundBrush().color()
         return f"Pixel #{self.num} ({self.x}, {self.y}) - R:{c.red()} G:{c.green()} B:{c.blue()}"
+
+    def to_dict(self):
+        px = {
+            "x": self.x,
+            "y": self.y,
+            "r": self.color.red(),
+            "g": self.color.green(),
+            "b": self.color.blue()
+        }
+        return px
 
     def set_color(self, color):
         self.color = color

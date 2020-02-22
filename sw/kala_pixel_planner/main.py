@@ -3,7 +3,7 @@ import random
 from PySide2.QtUiTools import QUiLoader
 from PySide2.QtWidgets import QApplication
 from PySide2.QtCore import QFile, Slot
-from PySide2 import QtGui, QtCore, QtWidgets, Qt
+from PySide2 import QtWidgets, QtGui
 from pixel import PixelScene
 from pixel_frame import PixelFrame
 from pixel_animation import PixelAnimation
@@ -39,6 +39,9 @@ duration_field = window.findChild(QtWidgets.QLineEdit, "duration_field")
 xy_label = window.findChild(QtWidgets.QLabel, "xy_label")
 
 # Frame Slider
+frame_slider = window.findChild(QtWidgets.QSlider, "frame_slider")
+
+# Menu Items
 frame_slider = window.findChild(QtWidgets.QSlider, "frame_slider")
 
 def set_pixel_color(x, y, color):
@@ -142,6 +145,7 @@ def handle_delete_press():
 @Slot()
 def handle_slider_move():
     loaded_animation.current_frame = frame_slider.value()
+    load_pixel_frame(loaded_animation.get_current_frame())
     update_controls()
 
 @Slot()
