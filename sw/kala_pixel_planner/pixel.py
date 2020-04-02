@@ -31,7 +31,7 @@ class PixelScene(QGraphicsScene):
         self.setBackgroundBrush(self.color)
 
     def mousePressEvent(self, event):
-        print(self)
+        print(f"{self} - mousePressEvent!")
         c = self.backgroundBrush().color()
         
         r_field = self.parent().findChild(QtWidgets.QLineEdit, "red_field")
@@ -47,3 +47,13 @@ class PixelScene(QGraphicsScene):
         label.setText(f"({self.x}, {self.y})")
 
         QGraphicsScene.mousePressEvent(self, event)
+    
+    # def dragEnterEvent(self, event):
+    #     print(f"{self} - dragEnterEvent!")
+    
+    # def dragLeaveEvent(self, event):
+    #     print(f"{self} - dragLeaveEvent!")
+
+    # def mouseMoveEvent(self, event):
+    #     #print(f"{self} - mouseMoveEvent!")
+    #     pass

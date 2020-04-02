@@ -12,7 +12,7 @@ class PixelFrame:
             self.green.append(255)
             self.blue.append(255)
         
-        self.duration = 24
+        self.duration = 1
     
     def __str__(self):
         ret = ""
@@ -34,6 +34,21 @@ class PixelFrame:
 
         for i in range(0, 256):
             px = {"r": self.red[i], "g": self.green[i], "b": self.blue[i]}
-            px_frame[i] = px
+            px_frame[int(i)] = px
+        
+        px_frame["duration"] = self.duration
 
         return px_frame
+
+    def from_dict(self, data):
+        self.red = []
+        self.green = []
+        self.blue = []
+
+        for i in range(0, 256):
+            px = data[str(i)]
+            self.red.append(px["r"])
+            self.green.append(px["g"])
+            self.blue.append(px["b"])
+        
+        self.duration = data["duration"]
