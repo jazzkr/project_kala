@@ -248,6 +248,6 @@ dmypy.json
 fw/kala_led_pcb_fw/kala_led_pcb_fw/.vs/kala_led_pcb_fw/v14/.atsuo
 fw/kala_led_pcb_fw/kala_led_pcb_fw/kala_led_pcb_fw/kala_led_pcb_fw.componentinfo.xml
 fw/kala_led_pcb_fw/kala_led_pcb_fw/kala_led_pcb_fw/kala_led_pcb_fw.cppproj
-fw/kala_led_pcb_fw/kala_led_pcb_fw/kala_led_pcb_fw/Debug/*
-sw/kala_pixel_planner/.vscode/*
-sw/kala_pixel_planner/env/*
+fw/kala_led_pcb_fw/kala_led_pcb_fw/kala_led_pcb_fw/Debug/
+sw/kala_pixel_planner/.vscode/
+sw/kala_pixel_planner/env/
