@@ -42,6 +42,9 @@ pbt = None
 global save_file
 save_file = None
 
+global selected_px
+selected_px = []
+
 # Buttons
 play_button = window.findChild(QtWidgets.QPushButton, "play_button")
 stop_button = window.findChild(QtWidgets.QPushButton, "stop_button")
@@ -87,7 +90,6 @@ speed_spin_box = window.findChild(QtWidgets.QSpinBox, "speed_spin_box")
 loop_checkbox = window.findChild(QtWidgets.QCheckBox, "loop_checkbox")
 copy_checkbox = window.findChild(QtWidgets.QCheckBox, "copy_checkbox")
 
-
 def set_pixel_color(x, y, color):
     i = (int(x) * 16) + int(y)
     px = window.findChild(QtWidgets.QGraphicsView, "graphicsView_" + str(i))
@@ -116,11 +118,52 @@ def load_pixel_frame(pf):
     except:
         pass
 
+def set_color_from_edit_fields(coord):
+    x = coord[0]
+    y = coord[1]
+
+    r = int(red_field.text())
+    g = int(green_field.text())
+    b = int(blue_field.text())
+
+    new_color = QtGui.QColor(r, g, b, 255)
+    set_pixel_color(x, y, new_color)
+
+    # Save to actual pixel frame
+    loaded_animation.get_current_frame().set_pixel_rgb(x, y, r, g, b)
+
+def parse_selected_px():
+    global selected_px
+    selected_px = []
+
+    x, y = xy_label.text().strip("(").strip(")").split(", ")
+
+    selected_px.append([x, y])
+
 def update_controls():
     global loaded_one_time
 
+    # Single load
     if not loaded_one_time:
         speed_spin_box.setRange(1, 60)
+        
+        frame_slider.setMinimum(0)
+        frame_slider.setSingleStep(1)
+        frame_slider.setEnabled(False)
+
+        red_slider.setMinimum(0)
+        red_slider.setMaximum(255)
+        red_slider.setSingleStep(1)
+
+        green_slider.setMinimum(0)
+        green_slider.setMaximum(255)
+        green_slider.setSingleStep(1)
+
+        blue_slider.setMinimum(0)
+        blue_slider.setMaximum(255)
+        blue_slider.setSingleStep(1)
+
+        loaded_one_time = True
     
     current_frame = loaded_animation.get_current_frame()
     total_frames = len(loaded_animation.frames)
@@ -153,9 +196,6 @@ def update_controls():
         add_button.setEnabled(False)
     
     # Frame slider
-    frame_slider.setMinimum(0)
-    frame_slider.setSingleStep(1)
-    frame_slider.setEnabled(False)
     if total_frames == 1:
         frame_slider.setEnabled(False)
         frame_slider.setMaximum(1)
@@ -234,23 +274,82 @@ def handle_delete_press():
     print("Delete pressed!")
 
 @Slot()
-def handle_slider_move():
+def handle_apply_press():
+    global edit_mode
+    global selected_px
+
+    parse_selected_px()
+
+    if edit_mode == EDIT_MODE["SELECT"]:
+        if len(selected_px) == 1:
+            set_color_from_edit_fields(selected_px[0])
+    elif edit_mode == EDIT_MODE["ALL"]:
+        for x in range(0, 16):
+            for y in range(0, 16):
+                set_color_from_edit_fields([x, y])
+
+@Slot()
+def handle_select_radio_press():
+    global edit_mode
+    edit_mode = EDIT_MODE["SELECT"]
+
+@Slot()
+def handle_brush_radio_press():
+    global edit_mode
+    edit_mode = EDIT_MODE["BRUSH"]
+
+@Slot()
+def handle_all_radio_press():
+    global edit_mode
+    edit_mode = EDIT_MODE["ALL"]
+
+@Slot()
+def handle_frame_slider_move():
     loaded_animation.current_frame = frame_slider.value()
     load_pixel_frame(loaded_animation.get_current_frame())
     update_controls()
 
 @Slot()
-def set_color_from_edit_fields():
-    x, y = xy_label.text().strip("(").strip(")").split(", ")
-    r = int(red_field.text())
-    g = int(green_field.text())
-    b = int(blue_field.text())
+def handle_rgb_slider_move():
+    global selected_px
+    parse_selected_px()
+    
+    r = red_slider.value()
+    g = green_slider.value()
+    b = blue_slider.value()
 
-    new_color = QtGui.QColor(r, g, b, 255)
-    set_pixel_color(x, y, new_color)
+    red_field.setText(str(r))
+    green_field.setText(str(g))
+    blue_field.setText(str(b))
 
-    # Save to actual pixel frame
-    loaded_animation.get_current_frame().set_pixel_rgb(x, y, r, g, b)
+    if edit_mode == EDIT_MODE["SELECT"]:
+        set_color_from_edit_fields(selected_px[0])
+
+@Slot()
+def handle_color_field_editing_finished():
+    global edit_mode
+    global selected_px
+    
+    parse_selected_px()
+
+    # RGB Sliders
+    try:
+        r = int(red_field.text())
+        g = int(green_field.text())
+        b = int(blue_field.text())
+    except:
+        r = 0
+        g = 0
+        b = 0
+    
+    red_slider.setValue(r)
+    green_slider.setValue(g)
+    blue_slider.setValue(b)
+
+    if edit_mode == EDIT_MODE["SELECT"]:
+        set_color_from_edit_fields(selected_px[0])
+    elif edit_mode == EDIT_MODE["BRUSH"]:
+        pass
 
 @Slot()
 def handle_open_action():
@@ -307,6 +406,10 @@ if __name__ == "__main__":
     right_button.clicked.connect(handle_right_press)
     add_button.clicked.connect(handle_add_press)
     delete_button.clicked.connect(handle_delete_press)
+    apply_button.clicked.connect(handle_apply_press)
+    select_radio_button.clicked.connect(handle_select_radio_press)
+    brush_radio_button.clicked.connect(handle_brush_radio_press)
+    all_radio_button.clicked.connect(handle_all_radio_press)
 
     # Field validators
     rgb_validator = QtGui.QIntValidator(0, 255)
@@ -318,12 +421,15 @@ if __name__ == "__main__":
     transparency_field.setValidator(transparency_validator)
 
     # Field connectors
-    red_field.editingFinished.connect(set_color_from_edit_fields)
-    green_field.editingFinished.connect(set_color_from_edit_fields)
-    blue_field.editingFinished.connect(set_color_from_edit_fields)
+    red_field.editingFinished.connect(handle_color_field_editing_finished)
+    green_field.editingFinished.connect(handle_color_field_editing_finished)
+    blue_field.editingFinished.connect(handle_color_field_editing_finished)
 
-    # Slider connector
-    frame_slider.valueChanged.connect(handle_slider_move)
+    # Slider connectors
+    frame_slider.valueChanged.connect(handle_frame_slider_move)
+    red_slider.valueChanged.connect(handle_rgb_slider_move)
+    green_slider.valueChanged.connect(handle_rgb_slider_move)
+    blue_slider.valueChanged.connect(handle_rgb_slider_move)
 
     # Menu connectors
     open_action.triggered.connect(handle_open_action)

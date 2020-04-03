@@ -36,12 +36,18 @@ class PixelScene(QGraphicsScene):
         
         r_field = self.parent().findChild(QtWidgets.QLineEdit, "red_field")
         r_field.setText(str(c.red()))
+        r_slider = self.parent().findChild(QtWidgets.QSlider, "red_slider")
+        r_slider.setValue(c.red())
 
         g_field = self.parent().findChild(QtWidgets.QLineEdit, "green_field")
         g_field.setText(str(c.green()))
+        g_slider = self.parent().findChild(QtWidgets.QSlider, "green_slider")
+        g_slider.setValue(c.green())
 
         b_field = self.parent().findChild(QtWidgets.QLineEdit, "blue_field")
         b_field.setText(str(c.blue()))
+        b_slider = self.parent().findChild(QtWidgets.QSlider, "blue_slider")
+        b_slider.setValue(c.blue())
 
         label = self.parent().findChild(QtWidgets.QLabel, "xy_label")
         label.setText(f"({self.x}, {self.y})")

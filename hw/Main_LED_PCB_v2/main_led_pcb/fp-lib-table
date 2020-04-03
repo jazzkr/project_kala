@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name WS2813A)(type Legacy)(uri ${KIPRJMOD}/components/WS2813A.mod)(options "")(descr ""))
-)

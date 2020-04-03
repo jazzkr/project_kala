@@ -1,0 +1,281 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kala:RTL8723BS_MOD U5
+U 1 1 5E296712
+P 3350 2050
+F 0 "U5" H 3350 2100 50  0000 L CNN
+F 1 "RTL8723BS_MOD" H 4950 0   50  0000 L CNN
+F 2 "Kala_PCB_v1:LQFP-44_12x12mm_P0.5mm" H 3400 2100 50  0001 C CNN
+F 3 "" H 3400 2100 50  0001 C CNN
+	1    3350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4150 4050 5350
+Wire Wire Line
+	4050 5350 4000 5350
+Wire Wire Line
+	4150 5450 4000 5450
+$Comp
+L kala:+VCC_3V3 #PWR0202
+U 1 1 61482543
+P 4850 4200
+F 0 "#PWR0202" H 4850 4050 50  0001 C CNN
+F 1 "+VCC_3V3" H 4865 4373 50  0000 C CNN
+F 2 "" H 4850 4200 50  0001 C CNN
+F 3 "" H 4850 4200 50  0001 C CNN
+	1    4850 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 4200 4850 4150
+Wire Wire Line
+	4650 4150 4650 4500
+$Comp
+L power:GND #PWR0203
+U 1 1 6148372E
+P 4650 4500
+F 0 "#PWR0203" H 4650 4250 50  0001 C CNN
+F 1 "GND" H 4655 4327 50  0000 C CNN
+F 2 "" H 4650 4500 50  0001 C CNN
+F 3 "" H 4650 4500 50  0001 C CNN
+	1    4650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2750 3150 2750
+Wire Wire Line
+	3250 2550 3150 2550
+Wire Wire Line
+	3150 2550 3150 2750
+Connection ~ 3150 2750
+Wire Wire Line
+	3150 2750 2550 2750
+$Comp
+L power:GND #PWR0204
+U 1 1 61487905
+P 2550 2750
+F 0 "#PWR0204" H 2550 2500 50  0001 C CNN
+F 1 "GND" V 2555 2622 50  0000 R CNN
+F 2 "" H 2550 2750 50  0001 C CNN
+F 3 "" H 2550 2750 50  0001 C CNN
+	1    2550 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1950 4650 1900
+$Comp
+L power:GND #PWR0205
+U 1 1 6148874A
+P 4650 1900
+F 0 "#PWR0205" H 4650 1650 50  0001 C CNN
+F 1 "GND" H 4655 1727 50  0000 C CNN
+F 2 "" H 4650 1900 50  0001 C CNN
+F 3 "" H 4650 1900 50  0001 C CNN
+	1    4650 1900
+	-1   0    0    1   
+$EndComp
+Text HLabel 4000 5350 0    50   Input ~ 0
+SDC_D2
+Text HLabel 4000 5450 0    50   Input ~ 0
+SDC_D3
+Wire Wire Line
+	4150 4150 4150 5450
+Wire Wire Line
+	4250 5550 4000 5550
+Wire Wire Line
+	4250 4150 4250 5550
+Wire Wire Line
+	4350 5650 4000 5650
+Wire Wire Line
+	4350 4150 4350 5650
+Wire Wire Line
+	4450 5750 4000 5750
+Wire Wire Line
+	4450 4150 4450 5750
+Wire Wire Line
+	4550 5850 4000 5850
+Wire Wire Line
+	4550 4150 4550 5850
+Text HLabel 4000 5650 0    50   Input ~ 0
+SDC_CLK
+Text HLabel 4000 5750 0    50   Input ~ 0
+SDC_D0
+Text HLabel 4000 5850 0    50   Input ~ 0
+SDC_D1
+Text HLabel 4000 5550 0    50   Input ~ 0
+SDC_CMD
+Wire Wire Line
+	5450 2550 5550 2550
+Wire Wire Line
+	5550 2550 5550 2750
+Wire Wire Line
+	5550 2750 5450 2750
+Wire Wire Line
+	5550 2750 5700 2750
+Connection ~ 5550 2750
+$Comp
+L power:GND #PWR0206
+U 1 1 6148D703
+P 5700 2750
+F 0 "#PWR0206" H 5700 2500 50  0001 C CNN
+F 1 "GND" H 5705 2577 50  0000 C CNN
+F 2 "" H 5700 2750 50  0001 C CNN
+F 3 "" H 5700 2750 50  0001 C CNN
+	1    5700 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3850 1950 3850 1650
+Wire Wire Line
+	3850 1650 3800 1650
+Text HLabel 3800 1650 0    50   Input ~ 0
+BT_UART_CTS
+Text HLabel 3800 1550 0    50   Input ~ 0
+BT_UART_RX
+Text HLabel 3800 1450 0    50   Input ~ 0
+BT_UART_TX
+Wire Wire Line
+	3950 1950 3950 1550
+Wire Wire Line
+	3950 1550 3800 1550
+Wire Wire Line
+	4050 1950 4050 1450
+Wire Wire Line
+	4050 1450 3800 1450
+NoConn ~ 5450 3050
+NoConn ~ 5450 3150
+NoConn ~ 5450 3250
+NoConn ~ 5450 3350
+Wire Wire Line
+	3250 3150 3000 3150
+Wire Wire Line
+	3250 3050 3000 3050
+Text HLabel 3000 3050 0    50   Input ~ 0
+BT_WAKE
+Text HLabel 3000 3150 0    50   Input ~ 0
+BT_IRQ
+$Comp
+L kala:+VCC_3V3 #PWR0207
+U 1 1 61494409
+P 3200 3350
+F 0 "#PWR0207" H 3200 3200 50  0001 C CNN
+F 1 "+VCC_3V3" V 3200 3650 50  0000 C CNN
+F 2 "" H 3200 3350 50  0001 C CNN
+F 3 "" H 3200 3350 50  0001 C CNN
+	1    3200 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 3350 3200 3350
+Wire Wire Line
+	3950 4150 3950 4750
+Text HLabel 3850 4750 0    50   Input ~ 0
+WLAN_IRQ
+$Comp
+L Device:Antenna AE1
+U 1 1 614966DF
+P 2850 2350
+F 0 "AE1" H 2930 2339 50  0000 L CNN
+F 1 "Antenna" H 2930 2248 50  0000 L CNN
+F 2 "" H 2850 2350 50  0001 C CNN
+F 3 "~" H 2850 2350 50  0001 C CNN
+	1    2850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2650 2850 2650
+Wire Wire Line
+	2850 2650 2850 2550
+Text HLabel 3750 4650 0    50   Input ~ 0
+WLAN_DSI_N
+Wire Wire Line
+	3750 4650 3850 4650
+Wire Wire Line
+	3850 4650 3850 4450
+Wire Wire Line
+	3950 4750 3850 4750
+NoConn ~ 5450 3450
+$Comp
+L Device:R_US R22
+U 1 1 6149CF3C
+P 2950 4250
+F 0 "R22" H 3018 4296 50  0000 L CNN
+F 1 "10K" H 3018 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2990 4240 50  0001 C CNN
+F 3 "~" H 2950 4250 50  0001 C CNN
+	1    2950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L kala:+VCC_3V3 #PWR0208
+U 1 1 6149F963
+P 2950 4000
+F 0 "#PWR0208" H 2950 3850 50  0001 C CNN
+F 1 "+VCC_3V3" H 2965 4173 50  0000 C CNN
+F 2 "" H 2950 4000 50  0001 C CNN
+F 3 "" H 2950 4000 50  0001 C CNN
+	1    2950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4100 2950 4000
+Wire Wire Line
+	2950 4400 2950 4450
+Wire Wire Line
+	2950 4450 3850 4450
+Connection ~ 3850 4450
+Wire Wire Line
+	3850 4450 3850 4150
+Text HLabel 5550 1500 2    50   Input ~ 0
+BT_RST_N
+$Comp
+L kala:+VCC_3V3 #PWR?
+U 1 1 5EE20403
+P 4850 1150
+F 0 "#PWR?" H 4850 1000 50  0001 C CNN
+F 1 "+VCC_3V3" H 4865 1323 50  0000 C CNN
+F 2 "" H 4850 1150 50  0001 C CNN
+F 3 "" H 4850 1150 50  0001 C CNN
+	1    4850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5EE221ED
+P 4850 1500
+F 0 "R?" H 4918 1546 50  0000 L CNN
+F 1 "10K" H 4918 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4890 1490 50  0001 C CNN
+F 3 "~" H 4850 1500 50  0001 C CNN
+	1    4850 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1650 4850 1750
+Wire Wire Line
+	4850 1350 4850 1150
+Wire Wire Line
+	4850 1750 5300 1750
+Wire Wire Line
+	5300 1750 5300 1500
+Wire Wire Line
+	5300 1500 5550 1500
+Connection ~ 4850 1750
+Wire Wire Line
+	4850 1750 4850 1950
+$EndSCHEMATC

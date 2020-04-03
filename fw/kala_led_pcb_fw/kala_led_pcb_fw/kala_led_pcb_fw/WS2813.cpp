@@ -4,7 +4,7 @@
  * Created: 2020-01-19 1:53:40 PM
  *  Author: krisz
  */
-#define F_CPU 16000000
+#define F_CPU 8000000
 
 #include <avr/io.h>
 #include <util/delay.h>
@@ -15,11 +15,13 @@
 #define ws2812_resettime  300
 
 #define ws2812_port A     // Data port
-#define ws2812_pin  6     // Data out pin
+#define ws2812_pin  3     // Data out pin
 
+#define CONCAT(a, b)            a ## b
+#define CONCAT_EXP(a, b)   CONCAT(a, b)
 
-#define ws2812_PORTREG  PORTA.OUT
-#define ws2812_DDRREG   PORTA.DIR
+#define ws2812_PORTREG  CONCAT_EXP(PORT,ws2812_port)
+#define ws2812_DDRREG   CONCAT_EXP(DDR,ws2812_port)
 
 // Timing in ns
 #define w_zeropulse   350
@@ -77,7 +79,11 @@
 #define w_nop8  w_nop4 w_nop4
 #define w_nop16 w_nop8 w_nop8
 
-struct cRGB  { uint8_t g; uint8_t r; uint8_t b; };
+struct pixel {
+	unsigned int r : 8;
+	unsigned int g : 8;
+	unsigned int b : 8;
+};
 
 void inline ws2812_sendarray_mask(uint8_t *data, uint16_t datlen, uint8_t maskhi)
 {
@@ -86,8 +92,8 @@ void inline ws2812_sendarray_mask(uint8_t *data, uint16_t datlen, uint8_t maskhi
   
   ws2812_DDRREG |= maskhi; // Enable output
   
-  masklo = ~maskhi & ws2812_PORTREG;
-  maskhi |= ws2812_PORTREG;
+  masklo	=~maskhi&ws2812_PORTREG;
+  maskhi |=        ws2812_PORTREG;
   
   sreg_prev=SREG;
   cli();  
@@ -159,9 +165,14 @@ w_nop16
   SREG=sreg_prev;
 }
 
-// Setleds for standard RGB
-void inline set_main_display(struct cRGB *ledarray)
+void inline ws2812_setleds_pin(struct pixel *ledarray, uint16_t leds, uint8_t pinmask)
 {
-	ws2812_sendarray_mask((uint8_t*)ledarray, 256*3, PIN6_bm);
+	ws2812_sendarray_mask((uint8_t*)ledarray, leds, pinmask);
 	_delay_us(ws2812_resettime);
+}
+
+// Setleds for standard RGB
+void inline ws2812_setleds(struct pixel *ledarray, uint16_t leds)
+{
+	ws2812_setleds_pin(ledarray, leds, _BV(ws2812_pin));
 }

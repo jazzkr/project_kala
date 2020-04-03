@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name kala)(type Legacy)(uri ${KIPRJMOD}/kala.lib)(options "")(descr ""))
+  (lib (name kala_pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/kala_pcb-rescue.lib)(options "")(descr ""))
+  (lib (name Kala_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/Kala_PCB-rescue.lib)(options "")(descr ""))
+)
